@@ -64,7 +64,7 @@ ul.menu {
 width: 100%;
 height: 56px;
 
-background: rgb(202, 199, 199);
+background: rgb(230, 229, 229);
 mix-blend-mode: normal;
 opacity: 0.9;
 }
@@ -80,10 +80,12 @@ opacity: 0.9;
   position: absolute;
   top: 10px;
   margin-left: 20%;
+ 
 }
 
 .roott-item img {
  position: absolute;
+ margin-left: 20px;
  top: -15px;
 }
 .roott-button {
