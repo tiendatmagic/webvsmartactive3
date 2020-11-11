@@ -198,15 +198,44 @@ color: #FFFFFF;
   & .bh-item {
 
 color: white;
-margin-left: 20px;
+margin-left: 40px;
+margin-right: 40px;
+
+& span {
+  font-size: 70px;
+}
+
+
+& img:nth-child(1) {
+  width: 82px;
+  height: 81px;
+}
+
+& img:nth-child(2) {
+  width: 67px;
+  height: 73px;
+}
   }
 }
 
-}
-
-.contentd {
-  background-image: url('../images/60X80 1.png');
+& .contentd {
+  background-image: url('../images/60X80 3.png');
   width: 100%;
   height: 900px;
+
+    & .imgg {
+      text-align: center;
+      margin-top: 38px;
+
+      & h1 {
+        width: 100%;       
+        color: white;        
+      }
+    }
+
+
 }
+}
+
+
 

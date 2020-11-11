@@ -138,9 +138,23 @@ body, html {
     margin-top: 200px; }
     .contentt .baohanh .bh-item {
       color: white;
-      margin-left: 20px; }
-
-.contentd {
-  background-image: url("../images/60X80 1.png");
-  width: 100%;
-  height: 900px; }
+      margin-left: 40px;
+      margin-right: 40px; }
+      .contentt .baohanh .bh-item span {
+        font-size: 70px; }
+      .contentt .baohanh .bh-item img:nth-child(1) {
+        width: 82px;
+        height: 81px; }
+      .contentt .baohanh .bh-item img:nth-child(2) {
+        width: 67px;
+        height: 73px; }
+  .contentt .contentd {
+    background-image: url("../images/60X80 3.png");
+    width: 100%;
+    height: 900px; }
+    .contentt .contentd .imgg {
+      text-align: center;
+      margin-top: 38px; }
+      .contentt .contentd .imgg h1 {
+        width: 100%;
+        color: white; }
