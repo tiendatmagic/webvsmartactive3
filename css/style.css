@@ -16,27 +16,21 @@ body, html {
   left: 0%;
   right: 0%;
   top: 4px; }
-
-ul.menu {
-  position: relative; }
-
-ul.menu img {
-  list-style: none;
-  float: left;
-  margin-left: 20%;
-  margin-top: 7px; }
-
-ul.menu li {
-  float: left;
-  padding: 0px 20px;
-  line-height: 56px;
-  list-style: none; }
-
-ul.menu li a {
-  text-decoration: none; }
-
-ul.menu li img {
-  margin-top: 100%; }
-
-.subitem {
-  margin-left: 45%; }
+  .root ul.menu {
+    position: relative; }
+    .root ul.menu img {
+      list-style: none;
+      float: left;
+      margin-left: 20%;
+      margin-top: 7px; }
+    .root ul.menu li {
+      float: left;
+      padding: 0px 20px;
+      line-height: 56px;
+      list-style: none; }
+    .root ul.menu li a {
+      text-decoration: none; }
+    .root ul.menu li img {
+      margin-top: 100%; }
+    .root ul.menu .subitem {
+      margin-left: 45%; }
