@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    outline: none;
+}
+
 body,html {
   width: 100%;
   height: 100%;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .root {
@@ -35,7 +50,7 @@ ul.menu {
   
   & li a {
     text-decoration: none;
-    color: rgb(0, 0, 165);
+    color: #333;
   }
   & li img {
     margin-top: 100%;
@@ -66,6 +81,7 @@ opacity: 0.9;
   left: 0px;
 }
 .roott-item p {
+  font-weight: bold;
   position: absolute;
   top: 10px;
   margin-left: 20%;
@@ -76,10 +92,15 @@ opacity: 0.9;
  top: -15px;
 }
 .roott-button {
-  margin-left: 60%;
-
+  margin-left: 63%;
+  margin-top: 3px;
   & * {
-    padding: 0px 20px;
+    padding: 0px 25px;
+    text-decoration: none;
+  }
+
+  & a {
+    color: #000;
   }
 
   & input[type='button'] {
@@ -87,11 +108,50 @@ opacity: 0.9;
     padding: 10px;
     background: #C15952;
 border-radius: 16px;
+border: none;
+color: #fff;
   }
 }
 
 .roott img {
   height: 30px;
   margin-top: 10px;
+}
+
+.content {
+  background-image: url('../images/image4.png');
+  width: 100%;
+  height: 900px;
+  
+
+  & .content1 {
+    width: 100%;
+    text-align: center;
+
+    & h1 {
+   
+          position: relative;
+          top:50px;
+      
+      background: linear-gradient(to right, #1CAFDD,#6EE3B5, #6AE0B5);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 72px;
+        font-style: normal;
+      font-weight: bold;
+      font-size: 90px;
+      line-height: 110px;
+    }
+
+    & span {
+      position: relative;
+      top:50px;
+      color: #fff;
+    }
+
+
+    
+  }
 }
 
