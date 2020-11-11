@@ -1,2 +1,2 @@
 
-alert("Test javascript");
+//alert("Test javascript");

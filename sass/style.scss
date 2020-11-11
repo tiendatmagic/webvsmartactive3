@@ -1,6 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* ghi code ở đây */
+body,html {
+  width: 100%;
+  height: 100%;
+}
 
-h1 {
-  color: red;
+.root {
+  width: 100%;
+  height: 56px;
+  background-color: brown;
+  
+}
+
+ul.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+
+& img {
+  margin-left: 15vw;
+}
+& li {
+  list-style: none;
+  margin-left: 3vw;
+  
+  & a {
+    text-decoration: none;
+    color: rgb(3, 3, 150);
+  }
+}
+
 }
