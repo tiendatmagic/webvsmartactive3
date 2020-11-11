@@ -114,11 +114,12 @@ color: #fff;
 }
 .contentt {
   background-image: url('../images/60X80 1.png');
+  background-size: cover;
 
 .content {
   background-image: url('../images/image4.png');
-  width: 100%;
-  height: 970px;
+  width: 100%;  
+  background-size: cover;
   
 
   & .content1 {
@@ -219,13 +220,15 @@ margin-right: 40px;
 }
 
 & .contentd {
-  background-image: url('../images/60X80 3.png');
+  background-image: url('../images/60.png');
   width: 100%;
-  height: 900px;
+  height: 1900px;
+  
 
     & .imgg {
       text-align: center;
       margin-top: 38px;
+
     }
 
     & .info1 {
@@ -264,6 +267,89 @@ color: #DFE3EE;
         }
 
 
+        }
+      }
+
+      & .info2 {
+        text-align: center;
+        justify-content: center;
+        & .color {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          & .color-item:nth-child(1) {
+
+            width: 92px;
+            height: 80px;
+            margin-left: 20px;
+            margin-right: 20px;
+          }
+          & .color-item {
+
+            width: 74px;
+            height: 80px;
+            margin-left: 20px;
+            margin-right: 20px;
+            position: relative;
+            & p {
+              font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+            }
+
+            &:nth-child(1) .color-i {
+              width: 20px;
+              height: 20px;
+              background: linear-gradient(206.57deg, rgba(9, 9, 9, 0) 0%, #3C3C3C 83.33%);
+              border-radius: 4px;
+              transform: matrix(1, 0, 0, -1, 0, 0);
+              position: absolute;
+              top: 60px;
+              left: 40%;
+            }
+
+            &:nth-child(2) .color-i {
+              width: 20px;
+              height: 20px;
+              background: linear-gradient(218.45deg, #1F8692 0.61%, #1F8692 48.5%, #3859C2 77.87%);
+border-radius: 4px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+position: absolute;
+top: 60px;
+              left: 40%;
+
+            }
+
+            &:nth-child(3) .color-i {
+              width: 20px;
+              height: 20px;
+              background: linear-gradient(206.57deg, #0877B5 49.48%, rgba(31, 228, 200, 0.76) 83.33%);
+              border-radius: 4px;
+              transform: matrix(1, 0, 0, -1, 0, 0);
+              position: absolute;
+              top: 60px;
+              left: 40%;
+            }
+
+            &:nth-child(4) .color-i {
+              width: 20px;
+              height: 20px;
+              background: linear-gradient(206.57deg, #7104A4 21.27%, rgba(46, 117, 193, 0.83) 83.33%);
+border-radius: 4px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+position: absolute;
+top: 60px;
+              left: 40%;
+            }
+
+
+          }
+        
         }
       }
     }
