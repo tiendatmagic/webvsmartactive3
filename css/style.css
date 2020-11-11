@@ -10,12 +10,7 @@ body, html {
 .root {
   width: 100%;
   height: 56px;
-  background-color: brown;
-  position: absolute;
-  height: 56px;
-  left: 0%;
-  right: 0%;
-  top: 4px; }
+  background-color: #000; }
   .root ul.menu {
     position: relative; }
     .root ul.menu img {
@@ -29,8 +24,22 @@ body, html {
       line-height: 56px;
       list-style: none; }
     .root ul.menu li a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #0000a5; }
     .root ul.menu li img {
       margin-top: 100%; }
     .root ul.menu .subitem {
       margin-left: 45%; }
+
+.roott {
+  display: flex;
+  background: red;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  position: relative;
+  height: 56px;
+  line-height: 56px; }
+
+.roott img {
+  height: 30px;
+  margin-top: 10px; }

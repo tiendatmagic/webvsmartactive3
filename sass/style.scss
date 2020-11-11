@@ -12,12 +12,8 @@ body,html {
 .root {
   width: 100%;
   height: 56px;
-  background-color: brown;
-  position: absolute;
-height: 56px;
-left: 0%;
-right: 0%;
-top: 4px;
+  background-color: #000;
+
   
 ul.menu {
   position: relative;
@@ -39,6 +35,7 @@ ul.menu {
   
   & li a {
     text-decoration: none;
+    color: rgb(0, 0, 165);
   }
   & li img {
     margin-top: 100%;
@@ -50,6 +47,20 @@ ul.menu {
     
   }
 }
+}
+.roott {
+  display: flex;
 
+  background: red;
+mix-blend-mode: normal;
+opacity: 0.9;
+position: relative;
+height: 56px;
+line-height: 56px;
+}
+
+.roott img {
+  height: 30px;
+  margin-top: 10px;
 }
 
