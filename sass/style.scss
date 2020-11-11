@@ -113,8 +113,8 @@ color: #fff;
   margin-top: 10px;
 }
 .contentt {
-  background-image: url('../images/60X80\ 1.png');
-}
+  background-image: url('../images/60X80 1.png');
+
 .content {
   background-image: url('../images/image4.png');
   width: 100%;
@@ -179,14 +179,29 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 140%;
-
-
 text-align: center;
-
 color: #FFFFFF;
       }
     }
   }
+}
+
+& .baohanh {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+
+
+  & .bh-item {
+
+color: white;
+margin-left: 20px;
+  }
+}
+
 }
 
 .contentd {
