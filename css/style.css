@@ -10,17 +10,33 @@ body, html {
 .root {
   width: 100%;
   height: 56px;
-  background-color: brown; }
+  background-color: brown;
+  position: absolute;
+  height: 56px;
+  left: 0%;
+  right: 0%;
+  top: 4px; }
 
 ul.menu {
-  height: 100%;
-  display: flex;
-  align-items: center; }
-  ul.menu img {
-    margin-left: 15vw; }
-  ul.menu li {
-    list-style: none;
-    margin-left: 3vw; }
-    ul.menu li a {
-      text-decoration: none;
-      color: #030396; }
+  position: relative; }
+
+ul.menu img {
+  list-style: none;
+  float: left;
+  margin-left: 20%;
+  margin-top: 7px; }
+
+ul.menu li {
+  float: left;
+  padding: 0px 20px;
+  line-height: 56px;
+  list-style: none; }
+
+ul.menu li a {
+  text-decoration: none; }
+
+ul.menu li img {
+  margin-top: 100%; }
+
+.subitem {
+  margin-left: 45%; }
