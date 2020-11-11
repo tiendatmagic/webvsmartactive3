@@ -155,6 +155,31 @@ body, html {
     .contentt .contentd .imgg {
       text-align: center;
       margin-top: 38px; }
-      .contentt .contentd .imgg h1 {
-        width: 100%;
-        color: white; }
+    .contentt .contentd .info1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px; }
+      .contentt .contentd .info1 .infoo {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 40vh; }
+        .contentt .contentd .info1 .infoo:nth-child(1) {
+          width: 350px;
+          height: 219px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 40px;
+          color: #FFFFFF;
+          margin-right: 100px; }
+        .contentt .contentd .info1 .infoo:nth-child(2) {
+          width: 455px;
+          height: 231px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 170%;
+          color: #DFE3EE; }

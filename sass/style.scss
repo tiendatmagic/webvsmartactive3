@@ -226,16 +226,51 @@ margin-right: 40px;
     & .imgg {
       text-align: center;
       margin-top: 38px;
+    }
 
-      & h1 {
-        width: 100%;       
-        color: white;        
+    & .info1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+
+      & .infoo {  
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 40vh;
+
+        &:nth-child(1) {
+          width: 350px;
+          height: 219px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 40px;        
+          color: #FFFFFF;
+          margin-right: 100px;
+        }
+
+        &:nth-child(2) {
+          width: 455px;
+          height: 231px;
+        
+          font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 170%;
+color: #DFE3EE;
+        }
+
+
+        }
       }
     }
 
 
 }
-}
+
 
 
 
