@@ -82,12 +82,11 @@ body, html {
   margin-top: 10px; }
 
 .contentt {
-  background-image: url("../images/60X80 1.png");
-  background-size: cover; }
+  background-image: url("../images/60X80 1.png"); }
   .contentt .content {
     background-image: url("../images/image4.png");
     width: 100%;
-    background-size: cover; }
+    height: 970px; }
     .contentt .content .content1 {
       width: 100%;
       text-align: center; }
@@ -111,7 +110,7 @@ body, html {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 750px; }
+      margin-top: 780px; }
       .contentt .content .content-item .citem {
         width: 217px;
         height: 210px;

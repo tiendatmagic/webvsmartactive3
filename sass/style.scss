@@ -114,13 +114,12 @@ color: #fff;
 }
 .contentt {
   background-image: url('../images/60X80 1.png');
-  background-size: cover;
+
 
 .content {
   background-image: url('../images/image4.png');
   width: 100%;  
-  background-size: cover;
-  
+  height: 970px;
 
   & .content1 {
     width: 100%;
@@ -156,7 +155,7 @@ color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 750px;
+    margin-top: 780px;
     & .citem {
       width: 217px;
       height: 210px;
@@ -357,6 +356,5 @@ top: 60px;
 
 
 }
-
 
 
