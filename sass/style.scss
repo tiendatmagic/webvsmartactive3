@@ -500,13 +500,15 @@ color: #000000;
           position: relative;
 
           & img {
-            margin-left: 110px;
+            margin-left: 150px;
           }
 
           .selectimg {
             display: flex;
-            margin-left: 100px;
+            margin-left: 150px;
+            width: 300px;
             margin-top: 20px;
+
           
 
           & .sss {
@@ -568,7 +570,7 @@ color: #000000;
     }
     .content2 {
       background-image: url('../images/60X80 2.png');
-    
+      background-size: cover;
 
     .contenth {
       display: flex;
@@ -585,12 +587,12 @@ color: #000000;
           position: relative;
 
           & img {
-            margin-left: 110px;
+            margin-left: 150px;
           }
 
           .selectimg {
             display: flex;
-            margin-left: 100px;
+            margin-left: 10px;
           
 
           & .sss {
@@ -652,6 +654,7 @@ color: #DFE3EE;
         position: relative;
         &:nth-child(1) {
           margin-left: 450px;
+          position: absolute;
         
           & .circle {
             width: 12px;
