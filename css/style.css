@@ -666,8 +666,7 @@ html {
               margin: 10px; }
               .contentt .contente .content2 .contentn .item-info:nth-child(1) .selectimg .sss:nth-child(1) {
                 background: #00D2C6;
-                border-radius: 21px;
-                margin-top: 30px; }
+                border-radius: 21px; }
         .contentt .contente .content2 .contentn .item-info:nth-child(2) h2 {
           width: 456px;
           height: 183px;
@@ -690,3 +689,35 @@ html {
           display: flex;
           align-items: center;
           color: #2F2F2F; }
+  .contentt .contente .contento {
+    background-image: url("../images/Rectangle 95.png");
+    height: 1907px; }
+    .contentt .contente .contento .contento1 {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 0px; }
+      .contentt .contente .contento .contento1 .item-info {
+        flex: 1; }
+        .contentt .contente .contento .contento1 .item-info:nth-child(1) {
+          color: white;
+          margin-left: 100px; }
+          .contentt .contente .contento .contento1 .item-info:nth-child(1) h2 {
+            width: 465px;
+            height: 122px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 61px;
+            color: #FFFFFF; }
+          .contentt .contente .contento .contento1 .item-info:nth-child(1) p {
+            width: 466px;
+            height: 164px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 170%;
+            /* or 34px */
+            color: #DFE3EE; }
