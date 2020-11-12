@@ -79,7 +79,8 @@ html {
     margin-top: 10px; }
 
 .contentt {
-  background-image: url("../images/60X80 1.png"); }
+  background-image: url("../images/60X80 1.png");
+  height: 1350px; }
   .contentt .content {
     background-image: url("../images/image4.png");
     width: 100%;
@@ -203,7 +204,7 @@ html {
           .contentt .contentd .info2 .color .color-item p {
             font-family: Montserrat;
             font-style: normal;
-            font-weight: 300;
+            font-weight: 550;
             font-size: 18px;
             line-height: 22px;
             text-align: center;
@@ -244,3 +245,45 @@ html {
             position: absolute;
             top: 60px;
             left: 40%; }
+  .contentt .contente .contentee {
+    margin-top: 100px;
+    display: flex; }
+    .contentt .contente .contentee .info-item {
+      flex: 1; }
+    .contentt .contente .contentee .info-item:nth-child(1) {
+      text-align: center; }
+    .contentt .contente .contentee .info-item:nth-child(2) {
+      margin-top: 80px;
+      text-align: left; }
+      .contentt .contente .contentee .info-item:nth-child(2) h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        color: #000000;
+        width: 450px; }
+      .contentt .contente .contentee .info-item:nth-child(2) p {
+        width: 500px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 170%;
+        /* or 31px */
+        color: #2F2F2F; }
+      .contentt .contente .contentee .info-item:nth-child(2) .box {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap; }
+        .contentt .contente .contentee .info-item:nth-child(2) .box .box-item {
+          width: 228px;
+          height: 70px;
+          background: #FFFFFF;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          margin: 10px;
+          text-align: center; }
+          .contentt .contente .contentee .info-item:nth-child(2) .box .box-item span {
+            position: relative;
+            top: 20px; }
