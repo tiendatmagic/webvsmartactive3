@@ -422,9 +422,7 @@ html {
       color: #FFFFFF;
       position: relative; }
       .contentt .contente .content2 .contenti .info-item:nth-child(1) {
-        margin-left: 450px;
-        top: 169px;
-        right: 20px; }
+        margin-left: 450px; }
         .contentt .contente .content2 .contenti .info-item:nth-child(1) .circle {
           width: 12px;
           height: 12px;
