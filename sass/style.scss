@@ -425,7 +425,8 @@ color: #2F2F2F;
 
     & .contentef {
       margin-top: 100px;
-      margin-bottom: 1500px;
+      height: 2000px;
+      
       display: flex;
       & .info-item {
         flex: 1;
@@ -487,6 +488,7 @@ color: #000000;
 
     .contenteg {
       display: flex;
+      height: 900px;
 
       & .info-item {
         flex: 1;
@@ -504,6 +506,7 @@ color: #000000;
           .selectimg {
             display: flex;
             margin-left: 100px;
+            margin-top: 20px;
           
 
           & .sss {
@@ -563,5 +566,85 @@ color: #000000;
       }
 
     }
+    .content2 {
+      background-image: url('../images/60X80 2.png');
+    
+
+    .contenth {
+      display: flex;
+      height: 1800px;
+   
+
+      & .info-item {
+        flex: 1;
+        &:nth-child(1) {
+          margin-top: 90px;
+        }
+
+        &:nth-child(2) {
+          position: relative;
+
+          & img {
+            margin-left: 110px;
+          }
+
+          .selectimg {
+            display: flex;
+            margin-left: 100px;
+          
+
+          & .sss {
+            flex-wrap: wrap;
+            width: 109px;
+            height: 4px;
+            
+background: #E6E6E6;
+border-radius: 21px;
+            margin: 10px;
+
+            &:nth-child(1) {
+              background: #00D2C6;
+border-radius: 21px;
+            }
+          }
+        }
+        }
+        & .info-in {
+       
+          margin-left: 190px;
+   
+          & h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 61px;
+            
+            color: #FFFFFF;
+
+          }
+
+          & p {
+            width: 496px;
+            height: 198px;
+            font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 170%;
+/* or 34px */
+
+
+color: #DFE3EE;
+          }
+            
+
+          
+        }
+      }
+
+    }
+  }
+
   }
 }
