@@ -649,9 +649,38 @@ color: #DFE3EE;
       & .info-item {
         line-height: 39px;     
         color: #FFFFFF;
+        position: relative;
         &:nth-child(1) {
           margin-left: 450px;
+          & .circle {
+            width: 12px;
+height: 12px;
+border: 2px solid #00D2C6;
+box-sizing: border-box;
+border-radius: 50%;
+position: relative;
+right: 30px;
+          }
+          & .line1 {
+            width: 480px;
+height: 0px;
+position: relative;
+right: 20px;
+bottom: 6.5px;
+border: 0.1px solid #00D2C6;
+transform: rotate(180deg);
+          }
 
+          & .line2 {
+            width: 462.33px;
+height: 0px;
+position: relative;
+top: 208px;
+left: 309px;
+border: 0.1px solid #00D2C6;
+transform: rotate(-110.42deg);
+          } 
+          
         }
         & p {
 
@@ -662,6 +691,10 @@ color: #DFE3EE;
         }
 
         
+      }
+
+      & .iimg img{
+        width: 100%;
       }
     }
   }
