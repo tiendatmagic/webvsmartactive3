@@ -950,6 +950,16 @@ color: #2F2F2F;
 
     }
 
+    .contentm {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 229px;
+      & img {
+        margin: 10px;
+      }
+    }
 
   }
 

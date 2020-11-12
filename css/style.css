@@ -640,3 +640,11 @@ html {
           line-height: 170%;
           /* or 34px */
           color: #2F2F2F; }
+    .contentt .contente .content2 .contentm {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 229px; }
+      .contentt .contente .content2 .contentm img {
+        margin: 10px; }
