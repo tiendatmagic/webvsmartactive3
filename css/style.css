@@ -551,6 +551,35 @@ html {
       .contentt .contente .content2 .contenti .iimg img {
         width: 100%; }
     .contentt .contente .content2 .contentj {
-      background-image: url("../images/Rectangle 168.png");
-      height: 1139px;
-      background-size: cover; }
+      background-image: url("../images/active3-bat-tron-khung-hinh-bg.jpg");
+      width: 100%;
+      height: 1100px;
+      background-size: cover;
+      background-position-x: -1.5px;
+      text-align: center; }
+      .contentt .contente .content2 .contentj h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+        margin: 0 auto;
+        color: #FFFFFF;
+        width: 402px;
+        height: 122px;
+        position: relative;
+        top: 120px; }
+      .contentt .contente .content2 .contentj p {
+        position: relative;
+        top: 200px;
+        width: 699px;
+        height: 127px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 170%;
+        margin: 0 auto;
+        /* or 34px */
+        color: #DFE3EE; }
