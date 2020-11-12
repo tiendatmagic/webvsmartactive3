@@ -571,6 +571,7 @@ color: #000000;
     .content2 {
       background-image: url('../images/60X80 2.png');
       background-size: cover;
+      height: 3941px;
 
     .contenth {
       display: flex;
@@ -648,14 +649,20 @@ color: #DFE3EE;
     }
 
     .contenti {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
       & .info-item {
         line-height: 39px;     
         color: #FFFFFF;
-        position: relative;
+   
         &:nth-child(1) {
           margin-left: 450px;
           position: absolute;
-        
+          top:  -6px;
+          left: 45px;
           & .circle {
             width: 12px;
 height: 12px;
@@ -701,8 +708,9 @@ left: 574px;
 
         &:nth-child(2) {
           margin-left: 450px;
-          top: 105px;
-          right: 110px;
+          position: relative;
+          top: 117px;
+          right: 53px;
           
           & .circle {
             width: 12px;
@@ -750,8 +758,9 @@ left: 532px;
 
         &:nth-child(3) {
           margin-left: 450px;
-          top: 45px;
-          right: 180px;
+          position: relative;
+          top: 57px;
+          right: 130px;
           & .circle {
             width: 12px;
 height: 12px;
@@ -811,6 +820,14 @@ left: 470px;
     
         width: 100%;
       }
+    }
+
+    .contentj {
+      background-image: url('../images/Rectangle\ 168.png');
+  
+      height: 1139px;
+      background-size: cover;
+      
     }
   }
 
