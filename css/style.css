@@ -289,6 +289,7 @@ html {
             top: 20px; }
   .contentt .contente .contentef {
     margin-top: 100px;
+    margin-bottom: 1500px;
     display: flex; }
     .contentt .contente .contentef .info-item {
       flex: 1; }
@@ -301,8 +302,7 @@ html {
           top: 0px;
           right: 0px; }
       .contentt .contente .contentef .info-item .info-in {
-        margin-left: 190px;
-        border: 1px solid red; }
+        margin-left: 190px; }
         .contentt .contente .contentef .info-item .info-in h2 {
           font-family: Montserrat;
           font-style: normal;
@@ -312,12 +312,58 @@ html {
           width: 470px;
           color: #000000; }
         .contentt .contente .contentef .info-item .info-in p:nth-child(3) {
-          width: 499px;
+          width: 520px;
           height: 58px; }
         .contentt .contente .contentef .info-item .info-in p:nth-child(5) {
           width: 462px;
           height: 138px; }
         .contentt .contente .contentef .info-item .info-in p {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 170%;
+          color: #2F2F2F; }
+  .contentt .contente .contenteg {
+    display: flex; }
+    .contentt .contente .contenteg .info-item {
+      flex: 1; }
+      .contentt .contente .contenteg .info-item:nth-child(1) {
+        margin-top: 90px; }
+      .contentt .contente .contenteg .info-item:nth-child(2) {
+        position: relative; }
+        .contentt .contente .contenteg .info-item:nth-child(2) img {
+          margin-left: 110px; }
+        .contentt .contente .contenteg .info-item:nth-child(2) .selectimg {
+          display: flex;
+          margin-left: 100px; }
+          .contentt .contente .contenteg .info-item:nth-child(2) .selectimg .sss {
+            flex-wrap: wrap;
+            width: 109px;
+            height: 4px;
+            background: #E6E6E6;
+            border-radius: 21px;
+            margin: 10px; }
+            .contentt .contente .contenteg .info-item:nth-child(2) .selectimg .sss:nth-child(1) {
+              background: #00D2C6;
+              border-radius: 21px; }
+      .contentt .contente .contenteg .info-item .info-in {
+        margin-left: 190px; }
+        .contentt .contente .contenteg .info-item .info-in h2 {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 50px;
+          line-height: 61px;
+          width: 470px;
+          color: #000000; }
+        .contentt .contente .contenteg .info-item .info-in p:nth-child(3) {
+          width: 520px;
+          height: 58px; }
+        .contentt .contente .contenteg .info-item .info-in p:nth-child(5) {
+          width: 462px;
+          height: 138px; }
+        .contentt .contente .contenteg .info-item .info-in p {
           font-family: Montserrat;
           font-style: normal;
           font-weight: 500;
