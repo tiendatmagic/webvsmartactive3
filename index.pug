@@ -8,6 +8,7 @@ html
         link(rel='stylesheet' href='./css/style.css')
         link(rel="stylesheet", href="./css/all.css")
         link(href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet")
+        link(href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet")
     body
         //-Copyright by Tiendatmagic
         //-ghi code ở đây
@@ -41,25 +42,25 @@ html
                     a(href="") Specs
                     input(type="button", value="Pre-Order")
         .contentt
-            .content
+            .content(data-aos="fade-up")
                 .content1
         
-                    h1 Active 3
-                    span Chất sang chảnh - chuẩn hình ảnh
+                    h1(data-aos="fade-up") Active 3
+                    span(data-aos="fade-down") Chất sang chảnh - chuẩn hình ảnh
                 
                 .content-item
                     .citem
-                        img(src="./images/active3-thiet-ke-mat-lung.png", alt="")
-                        p Thiết kế mặt lưng tràn ánh sáng
+                        img(src="./images/active3-thiet-ke-mat-lung.png", alt="" data-aos="fade-up")
+                        p(data-aos="zoom-in") Thiết kế mặt lưng tràn ánh sáng
                     .citem
-                        img(src="./images/active3-man-hinh-amoled.png", alt="")
-                        p Màn hình AMOLED 6.39" tràn viền
+                        img(src="./images/active3-man-hinh-amoled.png", alt="" data-aos="fade-up")
+                        p(data-aos="zoom-in") Màn hình AMOLED 6.39" tràn viền
                     .citem
-                        img(src="./images/active3-camera-truot.png", alt="")
-                        p Camera trượt 16MP ấn tượng
+                        img(src="./images/active3-camera-truot.png", alt="" data-aos="fade-up")
+                        p(data-aos="zoom-in") Camera trượt 16MP ấn tượng
                     .citem
-                        img(src="./images/active3-3camera-48mp.png", alt="")
-                        p Bộ 3 camera 48MP siêu chụp đêm 
+                        img(src="./images/active3-3camera-48mp.png", alt="" data-aos="fade-up")
+                        p(data-aos="zoom-in") Bộ 3 camera 48MP siêu chụp đêm 
             .baohanh
                 .bh-item
                     img(src="./images/zxv 0.png", alt="")
@@ -300,6 +301,9 @@ html
                                                                        
             
         script(src='./js/all.js')
+        script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+        script(src='./js/init.js')
+            
         //- script(src='./js/demo.js')
         //-ghi code ở đây
               //-Copyright by Tiendatmagic
