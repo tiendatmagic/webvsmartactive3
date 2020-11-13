@@ -897,15 +897,3 @@ html {
       /* or 34px */
       margin: 0 auto;
       color: #2F2F2F; }
-
-@media only screen and (max-width: 1145px) {
-  .root {
-    height: calc(56*12px); }
-    .root ul.menu img {
-      float: none;
-      display: flex;
-      margin: 0 auto; }
-    .root ul.menu li {
-      float: none; }
-    .root ul.menu .subitem {
-      margin-left: 0%; } }

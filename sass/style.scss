@@ -1366,3 +1366,35 @@ top: 50px;
 
   }
 }
+
+@media only screen and (max-width:1145px) {
+
+  .root {
+ 
+    height: calc(56*12px); //
+
+  
+    ul.menu {
+
+  
+      & img {
+    
+        float: none; //
+        display: flex;  //
+ 
+        margin: 0 auto;  //
+      }
+  
+      & li {
+        float: none; //
+
+      }
+  
+
+  
+      & .subitem {
+        margin-left: 0%; //
+      }
+    }
+  }
+}
