@@ -583,37 +583,39 @@ html {
         margin: 0 auto;
         /* or 34px */
         color: #DFE3EE; }
-    .contentt .contente .content2 .contentk {
-      text-align: center; }
-      .contentt .contente .content2 .contentk h2 {
-        width: 464px;
-        height: 122px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 50px;
-        line-height: 61px;
-        text-align: center;
-        margin: 0 auto;
-        color: #000000; }
-      .contentt .contente .content2 .contentk p {
-        width: 711px;
-        height: 138px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 170%;
-        margin: 0 auto;
-        text-align: center;
-        color: #2F2F2F;
-        margin-bottom: 50px; }
-      .contentt .contente .content2 .contentk .backimg {
-        width: 100%;
-        max-width: 100%;
-        height: 783px;
-        background-image: url("../images/active3-camera-goc-rong-2.png");
-        background-size: cover; }
+    .contentt .contente .content2 .contentimgk {
+      background-color: #E5E5E5; }
+      .contentt .contente .content2 .contentimgk .contentk {
+        text-align: center; }
+        .contentt .contente .content2 .contentimgk .contentk h2 {
+          width: 464px;
+          height: 122px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 50px;
+          line-height: 61px;
+          text-align: center;
+          margin: 0 auto;
+          color: #000000; }
+        .contentt .contente .content2 .contentimgk .contentk p {
+          width: 711px;
+          height: 138px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 170%;
+          margin: 0 auto;
+          text-align: center;
+          color: #2F2F2F;
+          margin-bottom: 50px; }
+        .contentt .contente .content2 .contentimgk .contentk .backimg {
+          width: 100%;
+          max-width: 100%;
+          height: 783px;
+          background-image: url("../images/active3-camera-goc-rong-2.png");
+          background-size: cover; }
     .contentt .contente .content2 .contentl {
       display: flex;
       width: 1000px;
@@ -689,6 +691,23 @@ html {
           display: flex;
           align-items: center;
           color: #2F2F2F; }
+    .contentt .contente .content2 .footer {
+      background: #BF5955; }
+      .contentt .contente .content2 .footer .f1 {
+        height: 41px; }
+        .contentt .contente .content2 .footer .f1 p {
+          width: 219px;
+          height: 22px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 160.4%;
+          margin-left: 300px;
+          color: #FFFFFF; }
+      .contentt .contente .content2 .footer .f2 {
+        height: 70px;
+        background-color: gray; }
   .contentt .contente .contento {
     background-image: url("../images/Rectangle 95.png");
     width: 100%;
@@ -794,3 +813,47 @@ html {
           line-height: 39px;
           /* identical to box height */
           color: #FFFFFF; }
+  .contentt .contente .contentp {
+    margin: 0 auto;
+    height: 1250px;
+    text-align: center;
+    position: relative;
+    top: 170px; }
+    .contentt .contente .contentp h2 {
+      text-align: center;
+      width: 470px;
+      height: 122px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 61px;
+      margin: 0 auto;
+      color: #000000; }
+    .contentt .contente .contentp .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px; }
+      .contentt .contente .contentp .logo span {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 48px;
+        line-height: 59px;
+        /* identical to box height */
+        text-align: center;
+        color: #9A9A9A;
+        position: relative;
+        top: 50px; }
+    .contentt .contente .contentp p {
+      margin-top: 20px;
+      width: 714px;
+      height: 138px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 170%;
+      /* or 34px */
+      margin: 0 auto;
+      color: #2F2F2F; }
