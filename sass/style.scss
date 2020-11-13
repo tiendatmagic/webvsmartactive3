@@ -657,7 +657,7 @@ color: #DFE3EE;
       & .info-item {
         line-height: 39px;     
         color: #FFFFFF;
-   
+   z-index: 9;
         &:nth-child(1) {
           margin-left: 450px;
           position: absolute;
@@ -819,6 +819,7 @@ left: 470px;
       & .iimg img{
     
         width: 100%;
+        z-index: -9;
       }
     }
 

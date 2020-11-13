@@ -428,7 +428,8 @@ html {
       bottom: 0px; }
       .contentt .contente .content2 .contenti .info-item {
         line-height: 39px;
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        z-index: 9; }
         .contentt .contente .content2 .contenti .info-item:nth-child(1) {
           margin-left: 450px;
           position: absolute;
@@ -549,7 +550,8 @@ html {
           font-weight: 500;
           font-size: 32px; }
       .contentt .contente .content2 .contenti .iimg img {
-        width: 100%; }
+        width: 100%;
+        z-index: -9; }
     .contentt .contente .content2 .contentj {
       background-image: url("../images/active3-bat-tron-khung-hinh-bg.jpg");
       width: 100%;
