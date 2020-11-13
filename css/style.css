@@ -951,11 +951,9 @@ html {
           font-size: 18px;
           line-height: 170%;
           color: #2f2f2f; }
-  .contenth {
-    height: 900px !important; }
-    .contenth .info-item:nth-child(2) img {
-      position: absolute;
-      right: 0px;
-      width: 80%; }
-    .contenth .info-item .info-in {
-      margin-left: 20% !important; } }
+  .contenth .info-item:nth-child(2) img {
+    position: absolute;
+    right: 0px;
+    width: 80%; }
+  .contenth .info-item .info-in {
+    margin-left: 20% !important; } }
