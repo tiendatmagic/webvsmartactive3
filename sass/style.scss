@@ -1039,17 +1039,20 @@ color: #2F2F2F;
     }
     & .footer {
       background: #BF5955;
+      height: 260px;
+      border-radius: 0px 0px 20px 20px;
       & .f1 {
         height: 41px;
 
         & p {
-          width: 219px;
+          width: 239px;
 height: 22px;
+line-height: 41px;
           font-family: Montserrat;
 font-style: normal;
-font-weight: 300;
+font-weight: 400;
 font-size: 14px;
-line-height: 160.4%;
+
 
 margin-left: 300px;
 
@@ -1061,6 +1064,69 @@ color: #FFFFFF;
       & .f2 {
         height: 70px;
         background-color: rgb(182, 182, 182);
+        & p {
+          text-align: center;
+          font-size: 15px;
+          line-height: 70px;
+        }
+      }
+
+      & .f3 {
+        display: flex;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        height: 130px;
+        & .f-item {
+          flex-wrap: wrap;
+          margin-left: 240px;
+          position: relative;
+          left: 90px;
+          top: 30px;
+          &:nth-child(1) {
+            & form select {
+              width: 230px;
+              height: 30px;
+              
+            }    
+            
+            & .icon {
+              margin-left: -20px;
+              
+              & svg {
+                margin: 20px;
+                font-size: 30px;
+              }
+            }
+          }
+
+          &:nth-child(2) {
+            p {
+              color: black;
+              font-weight: bold;
+            }
+          }
+
+          &:nth-child(3) {
+            p {
+              color: black;
+              font-weight: bold;
+            }
+          }
+
+          
+        }
+
+        & .iconn {
+   position: relative;
+   top: 0px;
+
+   & img {
+     position: absolute;
+     top: 80px;
+     left: 250px;
+ 
+   }
+        }
       }
     }
   }
