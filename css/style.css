@@ -271,7 +271,7 @@ html {
         font-size: 18px;
         line-height: 170%;
         /* or 31px */
-        color: #2F2F2F; }
+        color: #2f2f2f; }
       .contentt .contente .contentee .info-item:nth-child(2) .box {
         width: 500px;
         display: flex;
@@ -279,7 +279,7 @@ html {
         .contentt .contente .contentee .info-item:nth-child(2) .box .box-item {
           width: 228px;
           height: 70px;
-          background: #FFFFFF;
+          background: #ffffff;
           box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
           border-radius: 5px;
           margin: 5px;
@@ -323,7 +323,7 @@ html {
           font-weight: 500;
           font-size: 18px;
           line-height: 170%;
-          color: #2F2F2F; }
+          color: #2f2f2f; }
   .contentt .contente .contenteg {
     display: flex;
     height: 900px; }
@@ -344,11 +344,11 @@ html {
             flex-wrap: wrap;
             width: 109px;
             height: 4px;
-            background: #E6E6E6;
+            background: #e6e6e6;
             border-radius: 21px;
             margin: 10px; }
             .contentt .contente .contenteg .info-item:nth-child(2) .selectimg .sss:nth-child(1) {
-              background: #00D2C6;
+              background: #00d2c6;
               border-radius: 21px; }
       .contentt .contente .contenteg .info-item .info-in {
         margin-left: 190px; }
@@ -372,7 +372,7 @@ html {
           font-weight: 500;
           font-size: 18px;
           line-height: 170%;
-          color: #2F2F2F; }
+          color: #2f2f2f; }
   .contentt .contente .content2 {
     background-image: url("../images/60X80 2.png");
     background-size: cover;
@@ -387,7 +387,9 @@ html {
         .contentt .contente .content2 .contenth .info-item:nth-child(2) {
           position: relative; }
           .contentt .contente .content2 .contenth .info-item:nth-child(2) img {
-            margin-left: 150px; }
+            position: absolute;
+            right: 0px;
+            height: 100%; }
           .contentt .contente .content2 .contenth .info-item:nth-child(2) .selectimg {
             display: flex;
             margin-left: 10px; }
@@ -395,11 +397,11 @@ html {
               flex-wrap: wrap;
               width: 109px;
               height: 4px;
-              background: #E6E6E6;
+              background: #e6e6e6;
               border-radius: 21px;
               margin: 10px; }
               .contentt .contente .content2 .contenth .info-item:nth-child(2) .selectimg .sss:nth-child(1) {
-                background: #00D2C6;
+                background: #00d2c6;
                 border-radius: 21px; }
         .contentt .contente .content2 .contenth .info-item .info-in {
           margin-left: 190px; }
@@ -409,9 +411,9 @@ html {
             font-weight: bold;
             font-size: 50px;
             line-height: 61px;
-            color: #FFFFFF; }
+            color: #ffffff; }
           .contentt .contente .content2 .contenth .info-item .info-in p {
-            width: 496px;
+            width: 400px;
             height: 198px;
             font-family: Montserrat;
             font-style: normal;
@@ -419,7 +421,7 @@ html {
             font-size: 20px;
             line-height: 170%;
             /* or 34px */
-            color: #DFE3EE; }
+            color: #dfe3ee; }
     .contentt .contente .content2 .contenti {
       position: relative;
       top: 0px;
@@ -428,7 +430,7 @@ html {
       bottom: 0px; }
       .contentt .contente .content2 .contenti .info-item {
         line-height: 39px;
-        color: #FFFFFF;
+        color: #ffffff;
         z-index: 9; }
         .contentt .contente .content2 .contenti .info-item:nth-child(1) {
           margin-left: 450px;
@@ -438,7 +440,7 @@ html {
           .contentt .contente .content2 .contenti .info-item:nth-child(1) .circle {
             width: 12px;
             height: 12px;
-            border: 2px solid #00D2C6;
+            border: 2px solid #00d2c6;
             box-sizing: border-box;
             border-radius: 50%;
             position: relative;
@@ -449,7 +451,7 @@ html {
             position: relative;
             right: 20px;
             bottom: 6.5px;
-            border: 0.1px solid #00D2C6;
+            border: 0.1px solid #00d2c6;
             transform: rotate(180deg); }
           .contentt .contente .content2 .contenti .info-item:nth-child(1) .line2 {
             width: 462.33px;
@@ -457,13 +459,13 @@ html {
             position: relative;
             top: 208px;
             left: 309px;
-            border: 0.1px solid #00D2C6;
+            border: 0.1px solid #00d2c6;
             transform: rotate(-110.42deg); }
           .contentt .contente .content2 .contenti .info-item:nth-child(1) .lcircle {
             width: 92px;
             height: 92px;
             border-radius: 50%;
-            border: 2px solid #00D2C6;
+            border: 2px solid #00d2c6;
             box-sizing: border-box;
             position: relative;
             top: 424px;
@@ -476,7 +478,7 @@ html {
           .contentt .contente .content2 .contenti .info-item:nth-child(2) .circle {
             width: 12px;
             height: 12px;
-            border: 2px solid #00D2C6;
+            border: 2px solid #00d2c6;
             box-sizing: border-box;
             border-radius: 50%;
             position: relative;
@@ -487,7 +489,7 @@ html {
             position: relative;
             right: 20px;
             bottom: 6.5px;
-            border: 0.1px solid #00D2C6;
+            border: 0.1px solid #00d2c6;
             transform: rotate(180deg); }
           .contentt .contente .content2 .contenti .info-item:nth-child(2) .line2 {
             width: 333.04px;
@@ -495,13 +497,13 @@ html {
             position: relative;
             top: 147px;
             left: 351px;
-            border: 0.1px solid #00D2C6;
+            border: 0.1px solid #00d2c6;
             transform: rotate(-110.42deg); }
           .contentt .contente .content2 .contenti .info-item:nth-child(2) .lcircle {
             width: 92px;
             height: 92px;
             border-radius: 50%;
-            border: 2px solid #00D2C6;
+            border: 2px solid #00d2c6;
             box-sizing: border-box;
             position: relative;
             top: 302px;
@@ -514,7 +516,7 @@ html {
           .contentt .contente .content2 .contenti .info-item:nth-child(3) .circle {
             width: 12px;
             height: 12px;
-            border: 2px solid #00D2C6;
+            border: 2px solid #00d2c6;
             box-sizing: border-box;
             border-radius: 50%;
             position: relative;
@@ -525,7 +527,7 @@ html {
             position: relative;
             right: 20px;
             bottom: 6.5px;
-            border: 0.1px solid #00D2C6;
+            border: 0.1px solid #00d2c6;
             transform: rotate(180deg); }
           .contentt .contente .content2 .contenti .info-item:nth-child(3) .line2 {
             width: 200.61px;
@@ -533,13 +535,13 @@ html {
             position: relative;
             top: 86px;
             left: 380px;
-            border: 0.1px solid #00D2C6;
+            border: 0.1px solid #00d2c6;
             transform: rotate(-110.42deg); }
           .contentt .contente .content2 .contenti .info-item:nth-child(3) .lcircle {
             width: 92px;
             height: 92px;
             border-radius: 50%;
-            border: 2px solid #00D2C6;
+            border: 2px solid #00d2c6;
             box-sizing: border-box;
             position: relative;
             top: 178px;
@@ -567,7 +569,7 @@ html {
         line-height: 61px;
         text-align: center;
         margin: 0 auto;
-        color: #FFFFFF;
+        color: #ffffff;
         width: 402px;
         height: 122px;
         position: relative;
@@ -584,9 +586,9 @@ html {
         line-height: 170%;
         margin: 0 auto;
         /* or 34px */
-        color: #DFE3EE; }
+        color: #dfe3ee; }
     .contentt .contente .content2 .contentimgk {
-      background-color: #E5E5E5; }
+      background-color: #e5e5e5; }
       .contentt .contente .content2 .contentimgk .contentk {
         text-align: center; }
         .contentt .contente .content2 .contentimgk .contentk h2 {
@@ -610,7 +612,7 @@ html {
           line-height: 170%;
           margin: 0 auto;
           text-align: center;
-          color: #2F2F2F;
+          color: #2f2f2f;
           margin-bottom: 50px; }
         .contentt .contente .content2 .contentimgk .contentk .backimg {
           width: 100%;
@@ -643,7 +645,7 @@ html {
           font-size: 20px;
           line-height: 170%;
           /* or 34px */
-          color: #2F2F2F; }
+          color: #2f2f2f; }
     .contentt .contente .content2 .contentm {
       display: flex;
       flex-wrap: wrap;
@@ -665,11 +667,11 @@ html {
               flex-wrap: wrap;
               width: 109px;
               height: 4px;
-              background: #E6E6E6;
+              background: #e6e6e6;
               border-radius: 21px;
               margin: 10px; }
               .contentt .contente .content2 .contentn .item-info:nth-child(1) .selectimg .sss:nth-child(1) {
-                background: #00D2C6;
+                background: #00d2c6;
                 border-radius: 21px; }
         .contentt .contente .content2 .contentn .item-info:nth-child(2) h2 {
           width: 456px;
@@ -692,9 +694,9 @@ html {
           /* or 34px */
           display: flex;
           align-items: center;
-          color: #2F2F2F; }
+          color: #2f2f2f; }
     .contentt .contente .content2 .footer {
-      background: #BF5955;
+      background: #bf5955;
       height: 260px;
       border-radius: 0px 0px 20px 20px; }
       .contentt .contente .content2 .footer .f1 {
@@ -708,7 +710,7 @@ html {
           font-weight: 400;
           font-size: 14px;
           margin-left: 300px;
-          color: #FFFFFF; }
+          color: #ffffff; }
       .contentt .contente .content2 .footer .f2 {
         height: 70px;
         background-color: #b6b6b6; }
@@ -771,7 +773,7 @@ html {
             font-weight: bold;
             font-size: 50px;
             line-height: 61px;
-            color: #FFFFFF; }
+            color: #ffffff; }
           .contentt .contente .contento .contento1 .item-info:nth-child(1) p {
             width: 466px;
             height: 164px;
@@ -781,7 +783,7 @@ html {
             font-size: 20px;
             line-height: 170%;
             /* or 34px */
-            color: #DFE3EE; }
+            color: #dfe3ee; }
     .contentt .contente .contento .content02 {
       display: flex;
       justify-content: center; }
@@ -797,7 +799,7 @@ html {
           line-height: 61px;
           display: flex;
           align-items: center;
-          color: #FFFFFF; }
+          color: #ffffff; }
         .contentt .contente .contento .content02 .item-info:nth-child(2) {
           width: 676px;
           height: 138px;
@@ -807,7 +809,7 @@ html {
           font-size: 20px;
           line-height: 170%;
           /* or 34px */
-          color: #DFE3EE; }
+          color: #dfe3ee; }
     .contentt .contente .contento .content03 {
       justify-content: center;
       text-align: center;
@@ -831,19 +833,19 @@ html {
             font-size: 18px;
             line-height: 22px;
             /* identical to box height */
-            color: #FFFFFF;
+            color: #ffffff;
             opacity: 0.6; }
           .contentt .contente .contento .content03 .item .item-info:nth-child(1) .line {
-            background: linear-gradient(206.57deg, rgba(46, 117, 193, 0.83) 0%, #7104A4 83.33%);
+            background: linear-gradient(206.57deg, rgba(46, 117, 193, 0.83) 0%, #7104a4 83.33%);
             border-radius: 4px; }
           .contentt .contente .contento .content03 .item .item-info:nth-child(2) .line {
-            background: linear-gradient(206.57deg, rgba(31, 228, 200, 0.76) 0%, #0877B5 83.33%);
+            background: linear-gradient(206.57deg, rgba(31, 228, 200, 0.76) 0%, #0877b5 83.33%);
             border-radius: 4px; }
           .contentt .contente .contento .content03 .item .item-info:nth-child(3) .line {
-            background: linear-gradient(184.07deg, #0FB9DE 0%, #3859C2 96.68%);
+            background: linear-gradient(184.07deg, #0fb9de 0%, #3859c2 96.68%);
             border-radius: 4px; }
           .contentt .contente .contento .content03 .item .item-info:nth-child(4) .line {
-            background: linear-gradient(206.57deg, rgba(9, 9, 9, 0) 0%, #3C3C3C 83.33%);
+            background: linear-gradient(206.57deg, rgba(9, 9, 9, 0) 0%, #3c3c3c 83.33%);
             border-radius: 4px; }
         .contentt .contente .contento .content03 .item h2 {
           font-family: Montserrat;
@@ -852,7 +854,7 @@ html {
           font-size: 32px;
           line-height: 39px;
           /* identical to box height */
-          color: #FFFFFF; }
+          color: #ffffff; }
   .contentt .contente .contentp {
     margin: 0 auto;
     height: 1250px;
@@ -882,7 +884,7 @@ html {
         line-height: 59px;
         /* identical to box height */
         text-align: center;
-        color: #9A9A9A;
+        color: #9a9a9a;
         position: relative;
         top: 50px; }
     .contentt .contente .contentp p {
@@ -896,7 +898,7 @@ html {
       line-height: 170%;
       /* or 34px */
       margin: 0 auto;
-      color: #2F2F2F; }
+      color: #2f2f2f; }
 
 @media only screen and (max-width: 1145px) {
   .root {
@@ -908,4 +910,52 @@ html {
     .root ul.menu li {
       float: none; }
     .root ul.menu .subitem {
-      margin-left: 0%; } }
+      margin-left: 0%; }
+  .contentef .info-item .info-in {
+    margin-left: 20% !important; }
+    .contentef .info-item .info-in h2 {
+      width: 440px !important; }
+    .contentef .info-item .info-in p:nth-child(3) {
+      width: 390px !important;
+      height: 80px !important; }
+    .contentef .info-item .info-in p:nth-child(5) {
+      width: 390px !important; }
+  .contenteg {
+    width: 100%; }
+    .contenteg .info-item {
+      flex: 1; }
+      .contenteg .info-item img {
+        margin-left: 0px !important; }
+      .contenteg .info-item .selectimg {
+        margin-left: 20px !important; }
+      .contenteg .info-item .info-in {
+        margin-left: 20% !important; }
+        .contenteg .info-item .info-in h2 {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 50px;
+          line-height: 61px;
+          width: 400px !important;
+          color: #000000; }
+        .contenteg .info-item .info-in p:nth-child(3) {
+          width: 390px !important;
+          height: 78px !important; }
+        .contenteg .info-item .info-in p:nth-child(5) {
+          width: 390px !important;
+          height: 138px; }
+        .contenteg .info-item .info-in p {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 170%;
+          color: #2f2f2f; }
+  .contenth {
+    height: 900px !important; }
+    .contenth .info-item:nth-child(2) img {
+      position: absolute;
+      right: 0px;
+      width: 80%; }
+    .contenth .info-item .info-in {
+      margin-left: 20% !important; } }
