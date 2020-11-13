@@ -566,7 +566,6 @@
                 position: absolute;
                 right: 0px;
                 height: 100%;
-           
               }
   
               .selectimg {
@@ -619,163 +618,190 @@
         }
   
         .contenti {
-          position: relative;
-          top: 0px;
-          left: 0px;
-          right: 0px;
-          bottom: 0px;
-          & .info-item {
-            line-height: 39px;
-            color: #ffffff;
-            z-index: 9;
-            &:nth-child(1) {
-              margin-left: 450px;
-              position: absolute;
-              top: -6px;
-              left: 45px;
-              & .circle {
-                width: 12px;
-                height: 12px;
-                border: 2px solid #00d2c6;
-                box-sizing: border-box;
-                border-radius: 50%;
-                position: relative;
-                right: 30px;
-              }
-              & .line1 {
-                width: 480px;
-                height: 0px;
-                position: relative;
-                right: 20px;
-                bottom: 6.5px;
-                border: 0.1px solid #00d2c6;
-                transform: rotate(180deg);
-              }
+          width: 100%;
+      
   
-              & .line2 {
-                width: 462.33px;
-                height: 0px;
-                position: relative;
-                top: 208px;
-                left: 309px;
-                border: 0.1px solid #00d2c6;
-                transform: rotate(-110.42deg);
-              }
-              & .lcircle {
-                width: 92px;
-                height: 92px;
-                border-radius: 50%;
-                border: 2px solid #00d2c6;
-                box-sizing: border-box;
-                position: relative;
-                top: 424px;
-                left: 574px;
-              }
-            }
-  
-            &:nth-child(2) {
-              margin-left: 450px;
-              position: relative;
-              top: 117px;
-              right: 53px;
-  
-              & .circle {
-                width: 12px;
-                height: 12px;
-                border: 2px solid #00d2c6;
-                box-sizing: border-box;
-                border-radius: 50%;
-                position: relative;
-                right: 30px;
-              }
-              & .line1 {
-                width: 480px;
-                height: 0px;
-                position: relative;
-                right: 20px;
-                bottom: 6.5px;
-                border: 0.1px solid #00d2c6;
-                transform: rotate(180deg);
-              }
-  
-              & .line2 {
-                width: 333.04px;
-                height: 0px;
-                position: relative;
-                top: 147px;
-                left: 351px;
-                border: 0.1px solid #00d2c6;
-                transform: rotate(-110.42deg);
-              }
-  
-              & .lcircle {
-                width: 92px;
-                height: 92px;
-                border-radius: 50%;
-                border: 2px solid #00d2c6;
-                box-sizing: border-box;
-                position: relative;
-                top: 302px;
-                left: 532px;
-              }
-            }
-  
-            &:nth-child(3) {
-              margin-left: 450px;
-              position: relative;
-              top: 57px;
-              right: 130px;
-              & .circle {
-                width: 12px;
-                height: 12px;
-                border: 2px solid #00d2c6;
-                box-sizing: border-box;
-                border-radius: 50%;
-                position: relative;
-                right: 30px;
-              }
-              & .line1 {
-                width: 466px;
-                height: 0px;
-                position: relative;
-                right: 20px;
-                bottom: 6.5px;
-                border: 0.1px solid #00d2c6;
-                transform: rotate(180deg);
-              }
-  
-              & .line2 {
-                width: 200.61px;
-                height: 0px;
-                position: relative;
-                top: 86px;
-                left: 380px;
-                border: 0.1px solid #00d2c6;
-                transform: rotate(-110.42deg);
-              }
-  
-              & .lcircle {
-                width: 92px;
-                height: 92px;
-                border-radius: 50%;
-                border: 2px solid #00d2c6;
-                box-sizing: border-box;
-                position: relative;
-                top: 178px;
-                left: 470px;
-              }
-            }
-            & p {
-              font-family: Montserrat;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 32px;
-            }
+          & img {
+            
+            position: relative;
+           z-index: -9;
           }
   
-          & .iimg img {
+          & .itemii {
+            position: relative;
             width: 100%;
-            z-index: -9;
+            z-index: 9;
+  
+            & .info-item {
+              & span {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 90%;
+  
+                color: #ffffff;
+              }
+  
+              &:nth-child(1) {
+                & p {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 32px;
+                  line-height: 90%;
+                  /* or 29px */
+  
+                  color: #ffffff;
+                }
+  
+                & .circle {
+                  width: 12px;
+                  height: 12px;
+                  left: 406px;
+                  top: 9259px;
+  
+                  border: 2px solid #00d2c6;
+                  box-sizing: border-box;
+                  border-radius: 50%;
+                }
+  
+                & .line1 {
+                  width: 480px;
+                  height: 0px;
+                  position: relative;
+                  right: 20px;
+                  bottom: 6.5px;
+                  border: 0.1px solid #00d2c6;
+                  transform: rotate(180deg);
+                }
+  
+                & .line2 {
+                  width: 462.33px;
+                  height: 0px;
+                  position: relative;
+                  top: 208px;
+                  left: 309px;
+                  border: 0.1px solid #00d2c6;
+                  transform: rotate(-110.42deg);
+                }
+                & .lcircle {
+                  width: 92px;
+                  height: 92px;
+                  border-radius: 50%;
+                  border: 2px solid #00d2c6;
+                  box-sizing: border-box;
+                  position: relative;
+                  top: 424px;
+                  left: 574px;
+                }
+              }
+  
+              &:nth-child(2) {
+                & p {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 32px;
+                  line-height: 90%;
+                  color: #ffffff;
+                }
+  
+                & .circle {
+                  width: 12px;
+                  height: 12px;
+                  left: 406px;
+                  top: 9259px;
+  
+                  border: 2px solid #00d2c6;
+                  box-sizing: border-box;
+                  border-radius: 50%;
+                }
+  
+                & .line1 {
+                  width: 480px;
+                  height: 0px;
+                  position: relative;
+                  right: 20px;
+                  bottom: 6.5px;
+                  border: 0.1px solid #00d2c6;
+                  transform: rotate(180deg);
+                }
+  
+                & .line2 {
+                  width: 333.04px;
+                  height: 0px;
+                  position: relative;
+                  top: 147px;
+                  left: 351px;
+                  border: 0.1px solid #00d2c6;
+                  transform: rotate(-110.42deg);
+                }
+  
+                & .lcircle {
+                  width: 92px;
+                  height: 92px;
+                  border-radius: 50%;
+                  border: 2px solid #00d2c6;
+                  box-sizing: border-box;
+                  position: relative;
+                  top: 302px;
+                  left: 532px;
+                }
+              }
+  
+              &:nth-child(3) {
+                & p {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 32px;
+                  line-height: 90%;
+                  color: #ffffff;
+                }
+  
+                & .circle {
+                  width: 12px;
+                  height: 12px;
+                  left: 406px;
+                  top: 9259px;
+  
+                  border: 2px solid #00d2c6;
+                  box-sizing: border-box;
+                  border-radius: 50%;
+                }
+  
+                & .line1 {
+                  width: 466px;
+                  height: 0px;
+                  position: relative;
+                  right: 20px;
+                  bottom: 6.5px;
+                  border: 0.1px solid #00d2c6;
+                  transform: rotate(180deg);
+                }
+  
+                & .line2 {
+                  width: 200.61px;
+                  height: 0px;
+                  position: relative;
+                  top: 86px;
+                  left: 380px;
+                  border: 0.1px solid #00d2c6;
+                  transform: rotate(-110.42deg);
+                }
+  
+                & .lcircle {
+                  width: 92px;
+                  height: 92px;
+                  border-radius: 50%;
+                  border: 2px solid #00d2c6;
+                  box-sizing: border-box;
+                  position: relative;
+                  top: 178px;
+                  left: 470px;
+                }
+              }
+            }
           }
         }
   
@@ -1314,16 +1340,12 @@
     }
   
     .contentef {
-  
       & .info-item {
-   
         & .info-in {
           margin-left: 20% !important;
   
           & h2 {
-  
             width: 440px !important;
-  
           }
   
           & p:nth-child(3) {
@@ -1333,30 +1355,22 @@
   
           & p:nth-child(5) {
             width: 390px !important;
-      
           }
-  
         }
       }
     }
   
-  
-  
-  
     .contenteg {
-  
       width: 100%;
   
       & .info-item {
         flex: 1;
-   
   
         & img {
           margin-left: 0px !important;
         }
   
         .selectimg {
-        
           margin-left: 20px !important;
         }
         & .info-in {
@@ -1375,13 +1389,11 @@
           & p:nth-child(3) {
             width: 390px !important; //
             height: 78px !important; //
-  
           }
   
           & p:nth-child(5) {
             width: 390px !important; //
             height: 138px;
-  
           }
           & p {
             font-family: Montserrat;
@@ -1395,40 +1407,19 @@
       }
     }
   
-  
-  
-  
-    
     .contenth {
-  
-  
       & .info-item {
-  
-  
         &:nth-child(2) {
-         
-  
           & img {
             position: absolute;
             right: 0px;
             width: 80%;
           }
-  
-  
         }
         & .info-in {
           margin-left: 20% !important;
-  
-  
-  
-  
         }
       }
     }
-  
-  
-  
-    
-    
   }
   
