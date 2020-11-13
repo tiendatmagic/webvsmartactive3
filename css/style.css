@@ -900,7 +900,7 @@ html {
 
 @media only screen and (max-width: 1145px) {
   .root {
-    height: calc(56*12px); }
+    height: 100%; }
     .root ul.menu img {
       float: none;
       display: flex;
