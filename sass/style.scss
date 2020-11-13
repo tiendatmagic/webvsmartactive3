@@ -619,11 +619,7 @@ html {
       }
 
       .contenti {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
+       
         & .info-item {
           line-height: 39px;
           color: #ffffff;
@@ -1423,6 +1419,8 @@ html {
 
 
       }
+
+
     }
   }
 
