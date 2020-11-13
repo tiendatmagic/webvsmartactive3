@@ -691,7 +691,8 @@ html {
           color: #2F2F2F; }
   .contentt .contente .contento {
     background-image: url("../images/Rectangle 95.png");
-    height: 1907px; }
+    width: 100%;
+    height: 1500px; }
     .contentt .contente .contento .contento1 {
       display: flex;
       justify-content: center;
@@ -700,6 +701,7 @@ html {
       .contentt .contente .contento .contento1 .item-info {
         flex: 1; }
         .contentt .contente .contento .contento1 .item-info:nth-child(1) {
+          margin-top: 100px;
           color: white;
           margin-left: 100px; }
           .contentt .contente .contento .contento1 .item-info:nth-child(1) h2 {
@@ -721,3 +723,74 @@ html {
             line-height: 170%;
             /* or 34px */
             color: #DFE3EE; }
+    .contentt .contente .contento .content02 {
+      display: flex;
+      justify-content: center; }
+      .contentt .contente .contento .content02 .item-info {
+        flex-wrap: wrap; }
+        .contentt .contente .contento .content02 .item-info:nth-child(1) {
+          width: 467px;
+          height: 122px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 61px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF; }
+        .contentt .contente .contento .content02 .item-info:nth-child(2) {
+          width: 676px;
+          height: 138px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 170%;
+          /* or 34px */
+          color: #DFE3EE; }
+    .contentt .contente .contento .content03 {
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto; }
+      .contentt .contente .contento .content03 .item {
+        display: flex;
+        justify-content: center;
+        margin-right: 290px; }
+        .contentt .contente .contento .content03 .item .item-info {
+          flex-wrap: wrap;
+          margin-top: 30px;
+          margin-left: 60px;
+          margin-right: 60px; }
+          .contentt .contente .contento .content03 .item .item-info .line {
+            width: 100px;
+            height: 3px; }
+          .contentt .contente .contento .content03 .item .item-info p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height */
+            color: #FFFFFF;
+            opacity: 0.6; }
+          .contentt .contente .contento .content03 .item .item-info:nth-child(1) .line {
+            background: linear-gradient(206.57deg, rgba(46, 117, 193, 0.83) 0%, #7104A4 83.33%);
+            border-radius: 4px; }
+          .contentt .contente .contento .content03 .item .item-info:nth-child(2) .line {
+            background: linear-gradient(206.57deg, rgba(31, 228, 200, 0.76) 0%, #0877B5 83.33%);
+            border-radius: 4px; }
+          .contentt .contente .contento .content03 .item .item-info:nth-child(3) .line {
+            background: linear-gradient(184.07deg, #0FB9DE 0%, #3859C2 96.68%);
+            border-radius: 4px; }
+          .contentt .contente .contento .content03 .item .item-info:nth-child(4) .line {
+            background: linear-gradient(206.57deg, rgba(9, 9, 9, 0) 0%, #3C3C3C 83.33%);
+            border-radius: 4px; }
+        .contentt .contente .contento .content03 .item h2 {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 39px;
+          /* identical to box height */
+          color: #FFFFFF; }
