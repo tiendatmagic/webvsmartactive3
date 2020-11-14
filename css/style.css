@@ -811,7 +811,7 @@ html {
             /* or 34px */
             color: #dfe3ee; }
         .contentt .contente .contentoo .contento1 .item-info:nth-child(2) img {
-          width: 550px; }
+          width: 100%; }
     .contentt .contente .contentoo .content02 {
       display: flex;
       justify-content: center; }
