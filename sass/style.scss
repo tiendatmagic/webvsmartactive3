@@ -1144,6 +1144,7 @@ html {
         & .item-info {
           flex-wrap: wrap;
           margin-top: 100px;
+          position: relative;
           &:nth-child(1) {         
             color: white;       
             & h2 {
@@ -1177,8 +1178,9 @@ html {
             
             & img {
 
-             width: 500px;
-          
+             width: 400px;
+         
+             
             }
           }
         }
