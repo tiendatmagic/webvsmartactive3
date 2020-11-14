@@ -436,8 +436,16 @@ html {
           top: 900px; }
           .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) {
             position: absolute;
-            top: 66px;
+            top: -345px;
             left: 32.5%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) {
+            position: absolute;
+            top: -222px;
+            left: 26%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) {
+            position: absolute;
+            top: -99px;
+            left: 21%; }
           .contentt .contente .content2 .contenti .itemii .info-item span {
             font-family: Montserrat;
             font-style: normal;
@@ -494,6 +502,8 @@ html {
           .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .circle {
             width: 12px;
             height: 12px;
+            position: relative;
+            right: 31px;
             border: 2px solid #00d2c6;
             box-sizing: border-box;
             border-radius: 50%; }
@@ -532,6 +542,8 @@ html {
           .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .circle {
             width: 12px;
             height: 12px;
+            position: relative;
+            right: 31px;
             border: 2px solid #00d2c6;
             box-sizing: border-box;
             border-radius: 50%; }
@@ -562,7 +574,7 @@ html {
             left: 470px; }
       .contentt .contente .content2 .contenti .iimg.imgdt {
         width: 100%;
-        margin-top: 100px; }
+        margin-top: 500px; }
         .contentt .contente .content2 .contenti .iimg.imgdt img {
           width: 100%; }
     .contentt .contente .content2 .contentj {
