@@ -581,9 +581,10 @@ html {
       background-image: url("../images/active3-bat-tron-khung-hinh-bg.jpg");
       width: 100%;
       height: 1180px;
-      background-size: cover;
       background-position-x: -1.5px;
-      text-align: center; }
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
       .contentt .contente .content2 .contentj h2 {
         font-family: Montserrat;
         font-style: normal;
@@ -599,7 +600,7 @@ html {
         top: 120px; }
       .contentt .contente .content2 .contentj p {
         position: relative;
-        top: 200px;
+        top: 15%;
         width: 699px;
         height: 127px;
         font-family: Montserrat;
@@ -642,7 +643,8 @@ html {
           max-width: 100%;
           height: 783px;
           background-image: url("../images/active3-camera-goc-rong-2.png");
-          background-size: cover; }
+          background-repeat: no-repeat;
+          background-size: contain; }
     .contentt .contente .content2 .contentl {
       display: flex;
       width: 1000px;
