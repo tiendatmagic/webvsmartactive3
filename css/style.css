@@ -721,6 +721,7 @@ html {
           align-items: center;
           color: #2f2f2f; }
     .contentt .contente .content2 .footer {
+      width: 100%;
       background: #bf5955;
       height: 260px;
       border-radius: 0px 0px 20px 20px; }
@@ -734,15 +735,15 @@ html {
           font-style: normal;
           font-weight: 400;
           font-size: 14px;
-          margin-left: 300px;
+          margin-left: 25%;
           color: #ffffff; }
       .contentt .contente .content2 .footer .f2 {
-        height: 70px;
         background-color: #b6b6b6; }
         .contentt .contente .content2 .footer .f2 p {
           text-align: center;
           font-size: 15px;
-          line-height: 70px; }
+          line-height: 70px;
+          display: flex; }
       .contentt .contente .content2 .footer .f3 {
         display: flex;
         background-color: white;
@@ -750,7 +751,7 @@ html {
         height: 130px; }
         .contentt .contente .content2 .footer .f3 .f-item {
           flex-wrap: wrap;
-          margin-left: 240px;
+          margin-left: 5%;
           position: relative;
           left: 90px;
           top: 30px; }

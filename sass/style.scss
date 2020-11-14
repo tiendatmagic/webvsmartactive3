@@ -1033,6 +1033,7 @@ html {
         }
       }
       & .footer {
+        width: 100%;
         background: #bf5955;
         height: 260px;
         border-radius: 0px 0px 20px 20px;
@@ -1048,19 +1049,20 @@ html {
             font-weight: 400;
             font-size: 14px;
 
-            margin-left: 300px;
+            margin-left: 25%;
 
             color: #ffffff;
           }
         }
 
         & .f2 {
-          height: 70px;
+          
           background-color: rgb(182, 182, 182);
           & p {
             text-align: center;
             font-size: 15px;
             line-height: 70px;
+            display: flex;
           }
         }
 
@@ -1071,7 +1073,7 @@ html {
           height: 130px;
           & .f-item {
             flex-wrap: wrap;
-            margin-left: 240px;
+            margin-left: 5%;
             position: relative;
             left: 90px;
             top: 30px;
