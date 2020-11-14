@@ -786,11 +786,10 @@ html {
       margin: 0 auto;
       width: 0px; }
       .contentt .contente .contentoo .contento1 .item-info {
-        flex: 1; }
+        flex-wrap: wrap;
+        margin-top: 100px; }
         .contentt .contente .contentoo .contento1 .item-info:nth-child(1) {
-          margin-top: 100px;
-          color: white;
-          margin-left: 100px; }
+          color: white; }
           .contentt .contente .contentoo .contento1 .item-info:nth-child(1) h2 {
             width: 465px;
             height: 122px;
@@ -810,6 +809,8 @@ html {
             line-height: 170%;
             /* or 34px */
             color: #dfe3ee; }
+        .contentt .contente .contentoo .contento1 .item-info:nth-child(2) img {
+          width: 550px; }
     .contentt .contente .contentoo .content02 {
       display: flex;
       justify-content: center; }

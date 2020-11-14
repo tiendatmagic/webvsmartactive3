@@ -1136,12 +1136,10 @@ html {
         width: 0px;
 
         & .item-info {
-          flex: 1;
-
-          &:nth-child(1) {
-            margin-top: 100px;
-            color: white;
-            margin-left: 100px;
+          flex-wrap: wrap;
+          margin-top: 100px;
+          &:nth-child(1) {         
+            color: white;       
             & h2 {
               width: 465px;
               height: 122px;
@@ -1166,6 +1164,15 @@ html {
               /* or 34px */
 
               color: #dfe3ee;
+            }
+          }
+
+          &:nth-child(2) {
+            
+            & img {
+
+             width: 550px;
+          
             }
           }
         }
