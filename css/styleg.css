@@ -929,6 +929,8 @@ html {
       /* or 34px */
       margin: 0 auto;
       color: #2f2f2f; }
+    .contentt .contente .contentp img {
+      width: 60%; }
 
 @media only screen and (max-width: 1145px) {
   .root {
