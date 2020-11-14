@@ -189,6 +189,8 @@ html {
     .contentt .contentd .info2 {
       text-align: center;
       justify-content: center; }
+      .contentt .contentd .info2 img {
+        width: 100%; }
       .contentt .contentd .info2 .color {
         display: flex;
         flex-wrap: wrap;

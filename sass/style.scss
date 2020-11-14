@@ -265,6 +265,9 @@ html {
     & .info2 {
       text-align: center;
       justify-content: center;
+      & img {
+        width: 100%;
+      }
       & .color {
         display: flex;
         flex-wrap: wrap;
