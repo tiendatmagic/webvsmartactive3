@@ -154,7 +154,10 @@ html {
     height: 1650px; }
     .contentt .contentd .imgg {
       text-align: center;
-      margin-top: 38px; }
+      margin-top: 38px;
+      width: 100%; }
+      .contentt .contentd .imgg img {
+        width: 100%; }
     .contentt .contentd .info1 {
       display: flex;
       justify-content: center;
