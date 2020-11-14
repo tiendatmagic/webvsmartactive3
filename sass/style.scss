@@ -633,6 +633,11 @@ html {
           z-index: 9;
 
           & .info-item {
+            &:nth-child(1) {
+              position: absolute;
+              top: -45px;
+              left: 28.7%;
+            }
             & span {
               font-family: Montserrat;
               font-style: normal;
@@ -640,6 +645,8 @@ html {
               line-height: 90%;
 
               color: #ffffff;
+
+              
             }
 
             &:nth-child(1) {
@@ -649,17 +656,14 @@ html {
                 font-weight: 500;
                 font-size: 32px;
                 line-height: 90%;
-                /* or 29px */
-
                 color: #ffffff;
               }
 
               & .circle {
                 width: 12px;
                 height: 12px;
-                left: 406px;
-                top: 9259px;
-
+                position: relative;
+                right: 31px;
                 border: 2px solid #00d2c6;
                 box-sizing: border-box;
                 border-radius: 50%;
@@ -709,8 +713,7 @@ html {
               & .circle {
                 width: 12px;
                 height: 12px;
-                left: 406px;
-                top: 9259px;
+                
 
                 border: 2px solid #00d2c6;
                 box-sizing: border-box;
@@ -762,9 +765,7 @@ html {
               & .circle {
                 width: 12px;
                 height: 12px;
-                left: 406px;
-                top: 9259px;
-
+                
                 border: 2px solid #00d2c6;
                 box-sizing: border-box;
                 border-radius: 50%;
