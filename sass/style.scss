@@ -629,14 +629,28 @@ html {
 
         & .itemii {
           position: relative;
+        
           width: 100%;
           z-index: 9;
 
           & .info-item {
+            position: relative;
+            top: 900px;
             &:nth-child(1) {
               position: absolute;
-              top: -45px;
-              left: 28.7%;
+              top: 66px;
+              left: 32.5%;
+            }
+
+            &:nth-child(2) {
+       
+            
+            }
+
+            &:nth-child(3) {
+        
+              
+            
             }
             & span {
               font-family: Montserrat;
@@ -805,8 +819,13 @@ html {
           }
         }
 
-        & .iimg.imgdt img {
+        & .iimg.imgdt  {
           width: 100%;
+          margin-top: 100px;
+
+          & img {
+            width: 100%;
+          }
         }
       }
 

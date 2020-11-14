@@ -431,134 +431,140 @@ html {
         position: relative;
         width: 100%;
         z-index: 9; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) {
-          position: absolute;
-          top: -45px;
-          left: 28.7%; }
-        .contentt .contente .content2 .contenti .itemii .info-item span {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          line-height: 90%;
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) p {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 90%;
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .circle {
-          width: 12px;
-          height: 12px;
+        .contentt .contente .content2 .contenti .itemii .info-item {
           position: relative;
-          right: 31px;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          border-radius: 50%; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line1 {
-          width: 480px;
-          height: 0px;
-          position: relative;
-          right: 20px;
-          bottom: 6.5px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(180deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line2 {
-          width: 462.33px;
-          height: 0px;
-          position: relative;
-          top: 208px;
-          left: 309px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(-110.42deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .lcircle {
-          width: 92px;
-          height: 92px;
-          border-radius: 50%;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          position: relative;
-          top: 424px;
-          left: 574px; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) p {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 90%;
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .circle {
-          width: 12px;
-          height: 12px;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          border-radius: 50%; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line1 {
-          width: 480px;
-          height: 0px;
-          position: relative;
-          right: 20px;
-          bottom: 6.5px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(180deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line2 {
-          width: 333.04px;
-          height: 0px;
-          position: relative;
-          top: 147px;
-          left: 351px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(-110.42deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .lcircle {
-          width: 92px;
-          height: 92px;
-          border-radius: 50%;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          position: relative;
-          top: 302px;
-          left: 532px; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) p {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 90%;
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .circle {
-          width: 12px;
-          height: 12px;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          border-radius: 50%; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line1 {
-          width: 466px;
-          height: 0px;
-          position: relative;
-          right: 20px;
-          bottom: 6.5px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(180deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line2 {
-          width: 200.61px;
-          height: 0px;
-          position: relative;
-          top: 86px;
-          left: 380px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(-110.42deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .lcircle {
-          width: 92px;
-          height: 92px;
-          border-radius: 50%;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          position: relative;
-          top: 178px;
-          left: 470px; }
-      .contentt .contente .content2 .contenti .iimg.imgdt img {
-        width: 100%; }
+          top: 900px; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) {
+            position: absolute;
+            top: 66px;
+            left: 32.5%; }
+          .contentt .contente .content2 .contenti .itemii .info-item span {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .circle {
+            width: 12px;
+            height: 12px;
+            position: relative;
+            right: 31px;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            border-radius: 50%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line1 {
+            width: 480px;
+            height: 0px;
+            position: relative;
+            right: 20px;
+            bottom: 6.5px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(180deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line2 {
+            width: 462.33px;
+            height: 0px;
+            position: relative;
+            top: 208px;
+            left: 309px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(-110.42deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .lcircle {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            position: relative;
+            top: 424px;
+            left: 574px; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .circle {
+            width: 12px;
+            height: 12px;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            border-radius: 50%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line1 {
+            width: 480px;
+            height: 0px;
+            position: relative;
+            right: 20px;
+            bottom: 6.5px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(180deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line2 {
+            width: 333.04px;
+            height: 0px;
+            position: relative;
+            top: 147px;
+            left: 351px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(-110.42deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .lcircle {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            position: relative;
+            top: 302px;
+            left: 532px; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .circle {
+            width: 12px;
+            height: 12px;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            border-radius: 50%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line1 {
+            width: 466px;
+            height: 0px;
+            position: relative;
+            right: 20px;
+            bottom: 6.5px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(180deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line2 {
+            width: 200.61px;
+            height: 0px;
+            position: relative;
+            top: 86px;
+            left: 380px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(-110.42deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .lcircle {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            position: relative;
+            top: 178px;
+            left: 470px; }
+      .contentt .contente .content2 .contenti .iimg.imgdt {
+        width: 100%;
+        margin-top: 100px; }
+        .contentt .contente .content2 .contenti .iimg.imgdt img {
+          width: 100%; }
     .contentt .contente .content2 .contentj {
       background-image: url("../images/active3-bat-tron-khung-hinh-bg.jpg");
       width: 100%;
