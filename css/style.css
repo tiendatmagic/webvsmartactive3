@@ -85,7 +85,7 @@ html {
     background-image: url("../images/image4.png");
     width: 100%;
     height: 970px;
-    background-size: contain; }
+    background-size: 100% 100%; }
     .contentt .content .content1 {
       width: 100%;
       text-align: center; }
@@ -302,7 +302,7 @@ html {
           top: 0px;
           right: 0px; }
       .contentt .contente .contentef .info-item .info-in {
-        margin-left: 190px; }
+        margin-left: 140px; }
         .contentt .contente .contentef .info-item .info-in h2 {
           font-family: Montserrat;
           font-style: normal;
@@ -312,7 +312,7 @@ html {
           width: 470px;
           color: #000000; }
         .contentt .contente .contentef .info-item .info-in p:nth-child(3) {
-          width: 520px;
+          width: 500px;
           height: 58px; }
         .contentt .contente .contentef .info-item .info-in p:nth-child(5) {
           width: 462px;
@@ -333,11 +333,9 @@ html {
         margin-top: 90px; }
       .contentt .contente .contenteg .info-item:nth-child(2) {
         position: relative; }
-        .contentt .contente .contenteg .info-item:nth-child(2) img {
-          margin-left: 150px; }
         .contentt .contente .contenteg .info-item:nth-child(2) .selectimg {
           display: flex;
-          margin-left: 150px;
+          margin-left: 40px;
           width: 300px;
           margin-top: 20px; }
           .contentt .contente .contenteg .info-item:nth-child(2) .selectimg .sss {
@@ -351,7 +349,7 @@ html {
               background: #00d2c6;
               border-radius: 21px; }
       .contentt .contente .contenteg .info-item .info-in {
-        margin-left: 190px; }
+        margin-left: 140px; }
         .contentt .contente .contenteg .info-item .info-in h2 {
           font-family: Montserrat;
           font-style: normal;
