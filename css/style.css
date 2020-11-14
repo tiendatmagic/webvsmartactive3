@@ -790,9 +790,7 @@ html {
     height: 1500px; }
     .contentt .contente .contentoo .contento1 {
       display: flex;
-      justify-content: center;
-      margin: 0 auto;
-      width: 0px; }
+      justify-content: center; }
       .contentt .contente .contentoo .contento1 .item-info {
         flex-wrap: wrap;
         margin-top: 100px;
@@ -1020,3 +1018,113 @@ html {
   .contentee {
     margin-top: 100px;
     display: block !important; } }
+
+@media only screen and (max-width: 881px) {
+  .contentoo {
+    background-image: url("../images/Rectangle 95.png");
+    width: 100%;
+    height: 1500px; }
+    .contentoo .contento1 {
+      display: block !important;
+      justify-content: center; }
+      .contentoo .contento1 .item-info {
+        flex-wrap: wrap;
+        margin-top: 100px;
+        position: relative; }
+        .contentoo .contento1 .item-info:nth-child(1) {
+          color: white; }
+          .contentoo .contento1 .item-info:nth-child(1) h2 {
+            width: 465px;
+            height: 122px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 61px;
+            color: #ffffff; }
+          .contentoo .contento1 .item-info:nth-child(1) p {
+            width: 466px;
+            height: 164px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 170%;
+            /* or 34px */
+            color: #dfe3ee; }
+        .contentoo .contento1 .item-info:nth-child(2) img {
+          width: 400px; }
+    .contentoo .content02 {
+      display: block !important;
+      justify-content: center; }
+      .contentoo .content02 .item-info {
+        flex-wrap: wrap; }
+        .contentoo .content02 .item-info:nth-child(1) {
+          width: 467px;
+          height: 122px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 61px;
+          display: flex;
+          align-items: center;
+          color: #ffffff; }
+        .contentoo .content02 .item-info:nth-child(2) {
+          width: 676px;
+          height: 138px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 170%;
+          /* or 34px */
+          color: #dfe3ee; }
+    .contentoo .content03 {
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+      width: 100%; }
+      .contentoo .content03 img {
+        width: 80%; }
+      .contentoo .content03 .item {
+        display: flex;
+        justify-content: center;
+        width: 80%; }
+        .contentoo .content03 .item .item-info {
+          flex-wrap: wrap;
+          margin-top: 30px;
+          margin: 0px 5%;
+          margin-top: 30px; }
+          .contentoo .content03 .item .item-info .line {
+            width: 100px;
+            height: 3px; }
+          .contentoo .content03 .item .item-info p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height */
+            color: #ffffff;
+            opacity: 0.6; }
+          .contentoo .content03 .item .item-info:nth-child(1) .line {
+            background: linear-gradient(206.57deg, rgba(46, 117, 193, 0.83) 0%, #7104a4 83.33%);
+            border-radius: 4px; }
+          .contentoo .content03 .item .item-info:nth-child(2) .line {
+            background: linear-gradient(206.57deg, rgba(31, 228, 200, 0.76) 0%, #0877b5 83.33%);
+            border-radius: 4px; }
+          .contentoo .content03 .item .item-info:nth-child(3) .line {
+            background: linear-gradient(184.07deg, #0fb9de 0%, #3859c2 96.68%);
+            border-radius: 4px; }
+          .contentoo .content03 .item .item-info:nth-child(4) .line {
+            background: linear-gradient(206.57deg, rgba(9, 9, 9, 0) 0%, #3c3c3c 83.33%);
+            border-radius: 4px; }
+        .contentoo .content03 .item h2 {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 39px;
+          /* identical to box height */
+          color: #ffffff; } }
