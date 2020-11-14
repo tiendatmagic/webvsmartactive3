@@ -648,7 +648,7 @@ html {
           background-size: contain; }
     .contentt .contente .content2 .contentl {
       display: flex;
-      width: 1000px;
+      width: 100%;
       margin: 0 auto; }
       .contentt .contente .content2 .contentl .item-info {
         flex: 1; }
