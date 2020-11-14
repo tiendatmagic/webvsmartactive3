@@ -431,140 +431,160 @@ html {
         position: relative;
         width: 100%;
         z-index: 9; }
-        .contentt .contente .content2 .contenti .itemii .info-item span {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          line-height: 90%;
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) p {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 90%;
-          /* or 29px */
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .circle {
-          width: 12px;
-          height: 12px;
-          left: 406px;
-          top: 9259px;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          border-radius: 50%; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line1 {
-          width: 480px;
-          height: 0px;
+        .contentt .contente .content2 .contenti .itemii .info-item {
           position: relative;
-          right: 20px;
-          bottom: 6.5px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(180deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line2 {
-          width: 462.33px;
-          height: 0px;
-          position: relative;
-          top: 208px;
-          left: 309px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(-110.42deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .lcircle {
-          width: 92px;
-          height: 92px;
-          border-radius: 50%;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          position: relative;
-          top: 424px;
-          left: 574px; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) p {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 90%;
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .circle {
-          width: 12px;
-          height: 12px;
-          left: 406px;
-          top: 9259px;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          border-radius: 50%; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line1 {
-          width: 480px;
-          height: 0px;
-          position: relative;
-          right: 20px;
-          bottom: 6.5px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(180deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line2 {
-          width: 333.04px;
-          height: 0px;
-          position: relative;
-          top: 147px;
-          left: 351px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(-110.42deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .lcircle {
-          width: 92px;
-          height: 92px;
-          border-radius: 50%;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          position: relative;
-          top: 302px;
-          left: 532px; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) p {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 90%;
-          color: #ffffff; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .circle {
-          width: 12px;
-          height: 12px;
-          left: 406px;
-          top: 9259px;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          border-radius: 50%; }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line1 {
-          width: 466px;
-          height: 0px;
-          position: relative;
-          right: 20px;
-          bottom: 6.5px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(180deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line2 {
-          width: 200.61px;
-          height: 0px;
-          position: relative;
-          top: 86px;
-          left: 380px;
-          border: 0.1px solid #00d2c6;
-          transform: rotate(-110.42deg); }
-        .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .lcircle {
-          width: 92px;
-          height: 92px;
-          border-radius: 50%;
-          border: 2px solid #00d2c6;
-          box-sizing: border-box;
-          position: relative;
-          top: 178px;
-          left: 470px; }
+          top: 900px; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) {
+            position: absolute;
+            top: -345px;
+            left: 32.5%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) {
+            position: absolute;
+            top: -222px;
+            left: 26%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) {
+            position: absolute;
+            top: -99px;
+            left: 21%; }
+          .contentt .contente .content2 .contenti .itemii .info-item span {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .circle {
+            width: 12px;
+            height: 12px;
+            position: relative;
+            right: 31px;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            border-radius: 50%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line1 {
+            width: 480px;
+            height: 0px;
+            position: relative;
+            right: 20px;
+            bottom: 6.5px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(180deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .line2 {
+            width: 462.33px;
+            height: 0px;
+            position: relative;
+            top: 208px;
+            left: 309px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(-110.42deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(1) .lcircle {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            position: relative;
+            top: 424px;
+            left: 574px; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .circle {
+            width: 12px;
+            height: 12px;
+            position: relative;
+            right: 31px;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            border-radius: 50%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line1 {
+            width: 480px;
+            height: 0px;
+            position: relative;
+            right: 20px;
+            bottom: 6.5px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(180deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .line2 {
+            width: 333.04px;
+            height: 0px;
+            position: relative;
+            top: 147px;
+            left: 351px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(-110.42deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(2) .lcircle {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            position: relative;
+            top: 302px;
+            left: 532px; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 90%;
+            color: #ffffff; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .circle {
+            width: 12px;
+            height: 12px;
+            position: relative;
+            right: 31px;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            border-radius: 50%; }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line1 {
+            width: 466px;
+            height: 0px;
+            position: relative;
+            right: 20px;
+            bottom: 6.5px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(180deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .line2 {
+            width: 200.61px;
+            height: 0px;
+            position: relative;
+            top: 86px;
+            left: 380px;
+            border: 0.1px solid #00d2c6;
+            transform: rotate(-110.42deg); }
+          .contentt .contente .content2 .contenti .itemii .info-item:nth-child(3) .lcircle {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            border: 2px solid #00d2c6;
+            box-sizing: border-box;
+            position: relative;
+            top: 178px;
+            left: 470px; }
+      .contentt .contente .content2 .contenti .iimg.imgdt {
+        width: 100%;
+        margin-top: 500px; }
+        .contentt .contente .content2 .contenti .iimg.imgdt img {
+          width: 100%; }
     .contentt .contente .content2 .contentj {
       background-image: url("../images/active3-bat-tron-khung-hinh-bg.jpg");
       width: 100%;
       height: 1180px;
-      background-size: cover;
       background-position-x: -1.5px;
-      text-align: center; }
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
       .contentt .contente .content2 .contentj h2 {
         font-family: Montserrat;
         font-style: normal;
@@ -580,7 +600,7 @@ html {
         top: 120px; }
       .contentt .contente .content2 .contentj p {
         position: relative;
-        top: 200px;
+        top: 15%;
         width: 699px;
         height: 127px;
         font-family: Montserrat;
@@ -623,7 +643,8 @@ html {
           max-width: 100%;
           height: 783px;
           background-image: url("../images/active3-camera-goc-rong-2.png");
-          background-size: cover; }
+          background-repeat: no-repeat;
+          background-size: contain; }
     .contentt .contente .content2 .contentl {
       display: flex;
       width: 1000px;
@@ -700,6 +721,7 @@ html {
           align-items: center;
           color: #2f2f2f; }
     .contentt .contente .content2 .footer {
+      width: 100%;
       background: #bf5955;
       height: 260px;
       border-radius: 0px 0px 20px 20px; }
@@ -713,15 +735,15 @@ html {
           font-style: normal;
           font-weight: 400;
           font-size: 14px;
-          margin-left: 300px;
+          margin-left: 25%;
           color: #ffffff; }
       .contentt .contente .content2 .footer .f2 {
-        height: 70px;
         background-color: #b6b6b6; }
         .contentt .contente .content2 .footer .f2 p {
           text-align: center;
           font-size: 15px;
-          line-height: 70px; }
+          line-height: 70px;
+          display: flex; }
       .contentt .contente .content2 .footer .f3 {
         display: flex;
         background-color: white;
@@ -729,7 +751,7 @@ html {
         height: 130px; }
         .contentt .contente .content2 .footer .f3 .f-item {
           flex-wrap: wrap;
-          margin-left: 240px;
+          margin-left: 5%;
           position: relative;
           left: 90px;
           top: 30px; }

@@ -776,22 +776,22 @@ html {
             position: absolute;
             top: 80px;
             left: 250px; }
-  .contentt .contente .contento {
+  .contentt .contente .contentoo {
     background-image: url("../images/Rectangle 95.png");
     width: 100%;
     height: 1500px; }
-    .contentt .contente .contento .contento1 {
+    .contentt .contente .contentoo .contento1 {
       display: flex;
       justify-content: center;
       margin: 0 auto;
       width: 0px; }
-      .contentt .contente .contento .contento1 .item-info {
+      .contentt .contente .contentoo .contento1 .item-info {
         flex: 1; }
-        .contentt .contente .contento .contento1 .item-info:nth-child(1) {
+        .contentt .contente .contentoo .contento1 .item-info:nth-child(1) {
           margin-top: 100px;
           color: white;
           margin-left: 100px; }
-          .contentt .contente .contento .contento1 .item-info:nth-child(1) h2 {
+          .contentt .contente .contentoo .contento1 .item-info:nth-child(1) h2 {
             width: 465px;
             height: 122px;
             font-family: Montserrat;
@@ -800,7 +800,7 @@ html {
             font-size: 50px;
             line-height: 61px;
             color: #ffffff; }
-          .contentt .contente .contento .contento1 .item-info:nth-child(1) p {
+          .contentt .contente .contentoo .contento1 .item-info:nth-child(1) p {
             width: 466px;
             height: 164px;
             font-family: Montserrat;
@@ -810,12 +810,12 @@ html {
             line-height: 170%;
             /* or 34px */
             color: #dfe3ee; }
-    .contentt .contente .contento .content02 {
+    .contentt .contente .contentoo .content02 {
       display: flex;
       justify-content: center; }
-      .contentt .contente .contento .content02 .item-info {
+      .contentt .contente .contentoo .content02 .item-info {
         flex-wrap: wrap; }
-        .contentt .contente .contento .content02 .item-info:nth-child(1) {
+        .contentt .contente .contentoo .content02 .item-info:nth-child(1) {
           width: 467px;
           height: 122px;
           font-family: Montserrat;
@@ -826,7 +826,7 @@ html {
           display: flex;
           align-items: center;
           color: #ffffff; }
-        .contentt .contente .contento .content02 .item-info:nth-child(2) {
+        .contentt .contente .contentoo .content02 .item-info:nth-child(2) {
           width: 676px;
           height: 138px;
           font-family: Montserrat;
@@ -836,23 +836,23 @@ html {
           line-height: 170%;
           /* or 34px */
           color: #dfe3ee; }
-    .contentt .contente .contento .content03 {
+    .contentt .contente .contentoo .content03 {
       justify-content: center;
       text-align: center;
       margin: 0 auto; }
-      .contentt .contente .contento .content03 .item {
+      .contentt .contente .contentoo .content03 .item {
         display: flex;
         justify-content: center;
         margin-right: 290px; }
-        .contentt .contente .contento .content03 .item .item-info {
+        .contentt .contente .contentoo .content03 .item .item-info {
           flex-wrap: wrap;
           margin-top: 30px;
           margin-left: 60px;
           margin-right: 60px; }
-          .contentt .contente .contento .content03 .item .item-info .line {
+          .contentt .contente .contentoo .content03 .item .item-info .line {
             width: 100px;
             height: 3px; }
-          .contentt .contente .contento .content03 .item .item-info p {
+          .contentt .contente .contentoo .content03 .item .item-info p {
             font-family: Montserrat;
             font-style: normal;
             font-weight: normal;
@@ -861,19 +861,19 @@ html {
             /* identical to box height */
             color: #ffffff;
             opacity: 0.6; }
-          .contentt .contente .contento .content03 .item .item-info:nth-child(1) .line {
+          .contentt .contente .contentoo .content03 .item .item-info:nth-child(1) .line {
             background: linear-gradient(206.57deg, rgba(46, 117, 193, 0.83) 0%, #7104a4 83.33%);
             border-radius: 4px; }
-          .contentt .contente .contento .content03 .item .item-info:nth-child(2) .line {
+          .contentt .contente .contentoo .content03 .item .item-info:nth-child(2) .line {
             background: linear-gradient(206.57deg, rgba(31, 228, 200, 0.76) 0%, #0877b5 83.33%);
             border-radius: 4px; }
-          .contentt .contente .contento .content03 .item .item-info:nth-child(3) .line {
+          .contentt .contente .contentoo .content03 .item .item-info:nth-child(3) .line {
             background: linear-gradient(184.07deg, #0fb9de 0%, #3859c2 96.68%);
             border-radius: 4px; }
-          .contentt .contente .contento .content03 .item .item-info:nth-child(4) .line {
+          .contentt .contente .contentoo .content03 .item .item-info:nth-child(4) .line {
             background: linear-gradient(206.57deg, rgba(9, 9, 9, 0) 0%, #3c3c3c 83.33%);
             border-radius: 4px; }
-        .contentt .contente .contento .content03 .item h2 {
+        .contentt .contente .contentoo .content03 .item h2 {
           font-family: Montserrat;
           font-style: normal;
           font-weight: 600;
