@@ -430,7 +430,7 @@ html {
         z-index: -9; }
       .contentt .contente .content2 .contenti .itemii {
         position: relative;
-        width: 100%;
+        width: 90%;
         z-index: 9; }
         .contentt .contente .content2 .contenti .itemii .info-item {
           position: relative;
@@ -811,7 +811,7 @@ html {
             /* or 34px */
             color: #dfe3ee; }
         .contentt .contente .contentoo .contento1 .item-info:nth-child(2) img {
-          width: 100%; }
+          width: 500px; }
     .contentt .contente .contentoo .content02 {
       display: flex;
       justify-content: center; }
