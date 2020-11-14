@@ -1515,6 +1515,17 @@
   
       
     }
+  
+    .roott {
+      height: calc(56*2px);
+      line-height: 40px
+  }
+  
+  .roott img {
+      margin-top: 20px;
+  }
+  
+  
   }
   
   @media only screen and ( max-width:897px) {
@@ -1719,4 +1730,25 @@
     .contentn {
       display: block !important;
     }
+  }
+  
+  @media only screen and (max-width:825px) {
+  
+  
+    .contentl {
+      display: block !important;
+  
+      text-align: center;
+      & .item-info {
+  
+        &:nth-child(1) h2 {
+  
+          margin: 0 auto;
+  
+        }
+  
+      }
+    }
+  
+  
   }

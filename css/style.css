@@ -1144,3 +1144,37 @@ html {
     text-align: center; }
     .contentl .item-info:nth-child(1) h2 {
       margin: 0 auto; } }
+
+@media only screen and (max-width: 787px) {
+  .contenteg .info-item:nth-child(2) img {
+    width: 300px !important;
+    position: absolute;
+    top: 0px;
+    right: 0px; }
+  .contenteg .info-item:nth-child(2) .selectimg {
+    position: absolute;
+    bottom: 220px;
+    right: 0px; }
+  .contenteg .info-item .info-in {
+    margin-left: 140px; }
+    .contenteg .info-item .info-in h2 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 61px;
+      width: 470px;
+      color: #000000; }
+    .contenteg .info-item .info-in p:nth-child(3) {
+      width: 520px;
+      height: 58px; }
+    .contenteg .info-item .info-in p:nth-child(5) {
+      width: 462px;
+      height: 138px; }
+    .contenteg .info-item .info-in p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 170%;
+      color: #2f2f2f; } }
