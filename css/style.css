@@ -650,6 +650,8 @@ html {
         background-size: contain; }
       .contentt .contente .content2 .contentimgk .contentk img {
         width: 100%; }
+    .contentt .contente .content2 .contentimgk img.banner {
+      width: 80%; }
     .contentt .contente .content2 .contentl {
       display: flex;
       width: 100%;
@@ -753,12 +755,13 @@ html {
         display: flex;
         background-color: white;
         border-radius: 0px 0px 20px 20px;
+        width: 100%;
         height: 130px; }
         .contentt .contente .content2 .footer .f3 .f-item {
           flex-wrap: wrap;
           margin-left: 5%;
           position: relative;
-          left: 90px;
+          left: 0px;
           top: 30px; }
           .contentt .contente .content2 .footer .f3 .f-item:nth-child(1) form select {
             width: 230px;
@@ -780,7 +783,7 @@ html {
           .contentt .contente .content2 .footer .f3 .iconn img {
             position: absolute;
             top: 80px;
-            left: 250px; }
+            left: 20px; }
   .contentt .contente .contentoo {
     background-image: url("../images/Rectangle 95.png");
     width: 100%;
@@ -916,7 +919,7 @@ html {
         font-family: Montserrat;
         font-style: normal;
         font-weight: 100;
-        font-size: 48px;
+        font-size: 25px;
         line-height: 59px;
         /* identical to box height */
         text-align: center;
@@ -936,7 +939,11 @@ html {
       margin: 0 auto;
       color: #2f2f2f; }
     .contentt .contente .contentp img {
-      width: 60%; }
+      width: 15%; }
+
+@media only screen and (max-width: 1350px) {
+  .footer {
+    height: 330px !important; } }
 
 @media only screen and (max-width: 1145px) {
   .root {
