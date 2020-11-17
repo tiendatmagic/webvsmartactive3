@@ -46,8 +46,16 @@ html
             .content(data-aos="fade-up")
                 .content1
         
-                    h1(data-aos="fade-up") Active 3
-                    span(data-aos="fade-down") Chất sang chảnh - chuẩn hình ảnh
+                    h1(data-aos="fade-up"
+                                data-aos-easing="ease-in-back"
+                            data-aos-delay="300"
+                            data-aos-offset="0"
+                            ) Active 3
+                    span(data-aos="fade-down"
+                                data-aos-easing="ease-in-back"
+                            data-aos-delay="600"
+                            data-aos-offset="0"
+                            ) Chất sang chảnh - chuẩn hình ảnh
                 
                 .content-item
                     .citem
@@ -69,7 +77,7 @@ html
                         p(
                               data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back"
-                            data-aos-delay="1100"
+                            data-aos-delay="1200"
                             data-aos-offset="0"
                         ) Màn hình AMOLED 6.39" tràn viền
                     .citem
@@ -80,7 +88,7 @@ html
                         p(
                               data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back"
-                            data-aos-delay="1200"
+                            data-aos-delay="1400"
                             data-aos-offset="0"
                         ) Camera trượt 16MP ấn tượng
                     .citem
@@ -91,7 +99,7 @@ html
                         p(
                               data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back"
-                            data-aos-delay="1300"
+                            data-aos-delay="1600"
                             data-aos-offset="0"
                         ) Bộ 3 camera 48MP siêu chụp đêm 
             .baohanh
@@ -215,7 +223,14 @@ html
                             data-aos-delay="300"
                             data-aos-offset="0"
                     )
-                        img(src="./images/Emerald Green 9 1.png", alt="")
+                        img(src="./images/Emerald Green 9 1.png", alt="" style="z-index:9")
+                        img(src="./images/camera.png", alt=""  style="z-index:8"
+                            data-aos="fade-up"
+
+                            data-aos-easing="ease-in-back"
+                            data-aos-delay="600"
+                            data-aos-duration="1000"
+                            data-aos-offset="0")
 
                 .contenteg
                     .info-item
